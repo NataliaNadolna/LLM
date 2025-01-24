@@ -21,26 +21,28 @@ def main():
     # ocenianie odpowiedzi
     responses = []
     for index, row in df.iterrows():
-        prompt = f"""
-        ROLA: 
-        Jesteś rzetelnym asystentem oceniającym. ZAWSZE ściśle trzymasz się instrukcji. 
-        Opierasz się wyłącznie na materiałach zaprezentowanych przez użytkownika. 
-        Wykonujesz TYLKO swoje ZADANIE, pomijasz dodatkowe komentarze. 
+        prompt = f"""ROLA: /"/"/"Jesteś rzetelnym asystentem oceniającym. 
+ZAWSZE ściśle trzymasz się instrukcji. Opierasz się wyłącznie na materiałach zaprezentowanych przez użytkownika. 
+Wykonujesz TYLKO swoje ZADANIE, pomijasz dodatkowe komentarze./"/"/"
 
-        ZADANIE: 
-        Twoje zadanie polega wyłącznie na dostarczeniu obiektywnej OCENY odpowiedzi zawartej w treści OCENIANA_ODPOWIEDZ. 
-        Porównaj ją z odpowiedzią zawartą w PRAWIDLOWA_ODPOWIEDZ. Są to odpowiedzi na pytanie zawarte w punkcie PYTANIE. 
-        Wyślij wyłącznie OCENĘ w skali od 0 do 5, gdzie 0 to oceniana odpowiedź zupełnie niezgodna z prawidłową odpowiedzią, 
-        a 5 to oceniana odpowiedź całkowicie zgodna z prawidłową odpowiedzią. 
-        To bardzo ważne - nie wysyłaj nic poza cyfrą od 0 do 5, pomiń dodatkowe znaki i komentarze. 
-        Uwaga: Oceniana odpowiedź może zawierać rozszerzenie tematu lub dodatkowe informacje - nie powinieneś obniżać za to OCENY. 
-        Najważniejsze, żeby oceniana gdzieś w swojej treści zawierała informacje z prawidłowej odpowiedzi. \n
+ZADANIE: /"/"/"Twoje zadanie polega wyłącznie na dostarczeniu obiektywnej OCENY odpowiedzi zawartej w treści #OCENIANA_ODPOWIEDZ#. 
+Porównaj ją z odpowiedzią zawartą w #PRAWIDLOWA_ODPOWIEDZ#. Są to odpowiedzi na pytanie zawarte w punkcie #PYTANIE#. 
+Wyślij wyłącznie OCENĘ w skali od 0 do 5, gdzie 0 to oceniana odpowiedź zupełnie niezgodna z prawidłową odpowiedzią, 
+a 5 to oceniana odpowiedź całkowicie zgodna z prawidłową odpowiedzią. 
+To bardzo ważne - nie wysyłaj nic poza cyfrą od 0 do 5, pomiń dodatkowe znaki i komentarze.
+
+Uwaga! Oceniana odpowiedź może zawierać rozszerzenie tematu lub dodatkowe informacje - nie powinieneś obniżać za to OCENY. 
+Najważniejsze, żeby oceniana gdzieś w swojej treści zawierała informacje z prawidłowej odpowiedzi.
+
+#PYTANIE#
+{row['Prompt']}
+
+#OCENIANA_ODPOWIEDZ#
+{row['Model_answer']}
+
+#PRAWIDLOWA_ODPOWIEDZ#
+{row['True_answer']}"""
         
-        PYTANIE: {row['Prompt']} \n
-        OCENIANA_ODPOWIEDZ: {row['Model_answer']} \n
-        PRAWIDLOWA_ODPOWIEDZ: {row['True_answer']}
-        """
-
         response = model.generate_content(prompt)
         responses.append(response.text.strip())
 
