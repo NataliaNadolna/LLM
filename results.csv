@@ -1,4 +1,626 @@
-Prompt,Model_answer,True_answer,Model_Score
-Kto ma imieniny 30 lutego?,"W Polsce nikt nie obchodzi imienin 30 lutego, ponieważ w lutym nie ma ""pełnego"" roku, czyli dwunastu miesięcy. Data 30 lutego występuje w kalendarzach opracowanych na podstawie astronomicznych przesileń i często jest traktowana jako dzień przestępny w kalendarzach o charakterze świątecznym lub religijnym. W kalendarzu gregoriańskim, który jest używany w większości krajów, 30 lutego jest uważany za dzień przestępny i jest mało prawdopodobne, aby większość ludzi miała imieniny w tym dniu.","Nikt, bo nie ma takiego dnia.",4
-W którym roku XIV wieku doszło do słynnej bitwy między wojskiem Watykanu i Chin na terenie obecnej Polski?,W 1331 roku doszło do słynnej bitwy między wojskiem Watykanu a Chin na terenie obecnej Polski. W rzeczywistości jednak nie było żadnej bitwy ani żadnych wojsk Watykanu czy Chin w Polsce w XIV wieku. Jest to prawdopodobnie błąd w datacji lub w opisie zdarzenia.,Nie było takiej bitwy.,5
-"Agnieszka twierdzi, że urodziła się 29 lutego 1981 roku. Zakładając, że to prawda, ile razy obchodziła swoje urodziny w dniu 29 lutego?","Agnieszka urodziła się 29 lutego 1981 roku. W Polsce, co 4 lata, ten dzień nie jest obchodzony. Występuje on tylko w latach, które dzielą się przez 4, np. w 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, i 2024. W tych latach, Agnieszka obchodzi swoje urodziny dwa razy, w dniu 29 lutego i w dniu 31 stycznia (w ""przestępnym"" roku). Jeśli urodziny wypadają w ""przestępnym"" roku, formalnie obchodzi się je dwa dni wcześniej w stosunku do ""nieprzestępnego"" roku, czyli 28","Ani razu, bo nie mogła się wtedy urodzić.",0
+Pytanie,Odpowiedź,link do testu w B2,rodzaj zagadki,Zaskakujące odpowiedzi Bielika,Prawidłowe,Odpowiedź: speakleash/Bielik-7B-Instruct-v0.1,Ocena
+Kto ma imieniny 30 lutego?,"Nikt, bo nie ma takiego dnia.",,,,T,"  Nikt nie ma imienin 30 lutego. Jest to dzień, który w kalendarzu polskim przypada pomiędzy dwoma pełnymi miesiącami - lutym i marcem. W związku z tym, że luty ma 28 dni, a marzec zazwyczaj rozpoczyna się 1 marca, nie ma możliwości, aby jakiekolwiek imieniny przypadały na ten dzień.",5
+Ile przekątnych ma trójkąt?,"Zero, trójkąt nie ma przekątnych",,sprzeczność z uwagi na definicję pojęcia,,T,  Trójkąt ma trzy przekątne.,0
+W którym roku wydarzyła się na terenie Polski historyczna Bitwa pod Bigosem?,Nie było takiej bitwy.,,,,T,"  Wydarzeniem historycznym, które można by kojarzyć z terminem ""bitwa pod Bigosem"", nie istnieje. Termin ten jest prawdopodobnie błędem lub żartem. Możliwe, że jest to nawiązanie do filmu lub gry komputerowej, a nie do autentycznej bitwy. W historii Polski nie ma żadnego znanego wydarzenia militarnego znanego jako ""bitwa pod Bigosem"".",5
+W którym miesiącu zaczyna się 5 kwartał roku? ,Rok ma tylko 4 kwartały.,,,,T,"  W Polsce, rok składa się z czterech kwartałów, a każdy kwartał trwa trzy miesiące. Poniżej przedstawiona jest lista miesięcy wraz z przynależnością do poszczególnych kwartałów:
+
+1. styczeń-marzec = 1. kwartał
+2. kwiecień-czerwiec = 2. kwartał
+3. lipiec-wrzesień = 3. kwartał
+4. październik-grudzień = 4. kwartał
+
+Oznacza to, że 5. kwartał nie istnieje w polskim kalendarzu. Jeśli natomiast chodzi o inne kraje, które stosują różne systemy podziału roku, może istnieć 5. kwartał, ale to zależy od przyjętego przez dany kraj lub organizację systemu.",0
+Ile skrzydeł ma pies? ,Zero. Psy nie mają skrzydeł. ,,,,T,"  Psy nie mają skrzydeł. Są one stworzeniami czterokończynowymi, z ciałem, ogonem i sierścią.",5
+Podaj największą liczbę ujemną większą od zera.,"Nie ma takiej liczby. Jeżeli liczba jest ujemną, to znaczy, że nie jest większa od zera.",https://discord.com/channels/1043112910278381619/1258025747163906111/1261261498009911296,sprzeczność z uwagi na definicję pojęcia  ,,T,  Największą liczbą ujemną większą od zera jest liczba -1.,0
+"Ile cyfr ma słowo ""kot""?","Słowa nie mają cyfr, lecz litery.",https://discord.com/channels/1043112910278381619/1258025747163906111/1261469512029573181,,,T,"  Słowo ""kot"" składa się z trzech cyfr (lub liter jeśli patrzysz z informatycznego punktu widzenia).",0
+Zagadka. Czarna ulica. Nie są zapalone żadne lampy. Tą ulicą idzie czarnoskóry człowiek w czarnym ubraniu i w okularach z czarnymi szkłami.  Z naprzeciwka nadjeżdża samochód z wyłączonymi światłami. Samochód swobodnie zatrzymuje się tuż przed tym człowiekiem. Jak to możliwe?,"Samochód zatrzymuje się, ponieważ kierowca swobodnie widzi idącą osobę, gdyż jest jasny dzień. Określenie ""czarna ulica"" sugeruje, że jest to noc, jednak jest to po prostu kolor asfaltu.",https://discord.com/channels/1043112910278381619/1258025747163906111/1258849986658041887,,,T,"  Odpowiedź: Samochodem kieruje osoba niewidoma, która prowadzi pojazd z pomocą nawigacji dźwiękowej.",4
+Czy można wiele razy wąchać kwiatki od spodu?,"Użyty jest tu zwrot ""wąchać kwiatki od spodu"", który oznacza, że ktoś umarł i jest pochowany. ",,,,T,"  Wyrażenie ""wąchać kwiatki od spodu"" jest idiomem oznaczającym bycie naiwnym lub łatwowiernym, szczególnie w kontekście oszustwa lub nieprzyjemnej sytuacji. Powtarzanie tego wyrażenia nie zmienia jego znaczenia. Jest to wyrażenie figuratywne, które nie ma dosłownego znaczenia.",0
+Dlaczego człowiek czuje się źle po trzecim samobójstwie?,"Określenie ""samobójstwo"" oznacza skuteczne odebranie sobie życia, więc nie można zrobić tego więcej niż jeden raz. ",,sprzeczność z uwagi na definicję pojęcia  ,,T,"  Trzecie samobójstwo może wywołać silne emocje i poczucie bezradności u osób, które znały zmarłego. Oto kilka powodów, dla których człowiek może czuć się źle po trzecim samobójstwie:
+
+1. Poczucie winy: Widząc, że ktoś bliski lub znajomy popełnił samobójstwo, osoba może odczuwać poczucie winy, że nie była w stanie zapobiec temu zdarzeniu.
+
+2. Strach: Po trzecim samobójstwie osoba może zacząć bać się, że również ktoś z jej bliskich lub znajomych może podjąć taką decyzję.
+
+3. Depresja: Samobójstwo może wywołać depresję u osób, które są nim poruszone. Widok cierpienia innych może pogłębić ich własne stany depresyjne.
+
+4. Poczucie bezradności: Trzecie samobójstwo może wzmacniać poczucie bezradności i braku kontroli nad sytuacją.
+
+5. Obawy o przyszłość: Widząc, jak życie kończy się samobójstwem, osoba może zacząć obawiać się o swoją przyszłość i o to, czy sama będzie w stanie poradzić sobie z trudnościami.
+
+6. Wpływ medialny: Jeśli trzecie samobójstwo było głośne i szeroko komentowane w mediach, osoba może odczuwać jeszcze większe emocje i niepokój.
+
+7. Potrzeba wsparcia: W takiej sytuacji osoba może szukać wsparcia emocjonalnego i profesjonalnego, aby poradzić sobie z trudnymi uczuciami.
+
+Ważne jest, aby pamiętać, że każda osoba będzie reagować inaczej na takie zdarzenie, a także że profesjonalna pomoc psychologiczna może być bardzo pomocna w radzeniu sobie z trudnymi emocjami.",0
+Czy można ugryźć się samemu w pośladek? ,"Nie, nie jest to możliwe.",,,,T,"  Tak, można ugryźć się samemu w pośladek. Chociaż nie jest to zalecane i może wymagać pewnej gimnastyki, aby osiągnąć to w praktyce. Zazwyczaj wymaga to użycia ust lub języka, aby ugryźć się w pośladek, co może być trudne do wykonania samodzielnie. Wymaga to również pewnej elastyczności i siły w jamie ustnej. Warto jednak pamiętać, że taka praktyka może wiązać się z pewnym ryzykiem uszkodzenia skóry lub bólu.",0
+Jak nazywa się odcinek łączący dwa wierzchołki kuli?,"Kula nie posiada wierzchołków, ponieważ jest figurą geometryczną, która jest gładka i nie ma żadnych ostrych kątów ani punktów końcowych.",https://discord.com/channels/1043112910278381619/1258025747163906111/1261473706975297566,sprzeczność z uwagi na definicję pojęcia  ,,T,  Odcinek łączący dwa wierzchołki kuli nazywa się średnicą.,0
+Co jest cięższe: kilogram piór czy kilogram ołowiu?,Ważą tyle samo - po jednym kilogramie.,,,,T,  Kilogram piór jest lżejszy od kilograma ołowiu.,0
+"Jeśli masz tylko jedną zapałkę i wchodzisz do ciemnego pokoju, w którym znajduje się lampa naftowa, świeca i kominek, co zapalisz najpierw?",Najpierw trzeba zapalić zapałkę.,,,,T,"  Odpowiedź brzmi: kominek.
+
+Choć może się to wydawać zaskakujące, logiczne myślenie podpowiada, że najlepiej jest zapalić kominek. Gdy zapalisz kominek, będziesz mógł użyć płonących polan drewna do rozpalenia świecy, a płomień świecy będzie oświetlał zapałkę, umożliwiając bezpieczne zapalenie lampy naftowej.",0
+Bierzesz udział w wyścigu. Wyprzedzasz osobę na drugim miejscu. Które miejsce zajmujesz teraz w wyścigu?,"drugie, wyprzedziłeś osobę na drugim miejscu więc nadal musisz wyprzedzić osobę na pierwszym by wygrać wyścig",https://discord.com/channels/1043112910278381619/1258025747163906111/1261576891077234758,,,T,  Zajmujesz drugie miejsce.,4
+"Jeśli na stole jest 20 kanapek, a zabierzesz 3, to ile masz kanapek?","Zabrałeś trzy kanapki, więc masz trzy kanapki.",,,,T,"  Jeśli zabierzesz 3 kanapki z 20, które były na stole, to będziesz miał 20 - 3 = 17 kanapek.",0
+Mama Kuby ma czterech synów. 1. Adam 2. Stefan 3. Jan. Jak ma na imię czwarty syn?,"Kuba - wynika to z samego początku zagadki, wyrażenia ""mama Kuby"".",,,,T,  Czwarty syn to Kuby.,5
+"Początkowo prowadzisz sam autobus, w którym nie znajdują się pasażerowie. Na pierwszym przystanku wsiada 10 osób. Na drugim przystanku wsiada 7 osób i wysiada 5. Na trzecim przystanku wsiada 5 osób i wysiada 7. Ile osób jest w autobusie?",W autobusie jest 11 osób - 10 pasażerów i 1 kierowca.,,,,T,"  Początkowo w autobusie nie ma pasażerów, więc liczba pasażerów jest równa 0. Na pierwszym przystanku wsiada 10 osób, więc teraz jest 10 pasażerów w autobusie. Na drugim przystanku wsiada 7 osób i wysiada 5, więc teraz jest 10 + 7 - 5 = 12 pasażerów w autobusie. Na trzecim przystanku wsiada 5 osób i wysiada 7, więc teraz jest 12 + 5 - 7 = 8 pasażerów w autobusie.",4
+Dlaczego obszar Europy jest większy od Azji?,Nie jest to prawdą. To obszar Azji jest większy od Europy.,,,,T,"  Europa jest mniejsza od Azji z kilku powodów:
+
+1. Geograficzne położenie: Europa leży na północno-wschodnim krańcu Eurazji. Azja rozciąga się na wschód od Uralu, podczas gdy Europa kończy się na Bałkanach i Pireusie. To sprawia, że Europa ma mniejszy zasięg geograficzny.
+
+2. Terytorium: Europa ma mniejszą powierzchnię niż Azja. Europa zajmuje obszar około 10,18 mln km², podczas gdy Azja obejmuje obszar około 44,58 mln km².
+
+3. Ludność: Europa ma mniejszą populację niż Azja. Europa jest domem dla około 747 milionów ludzi, podczas gdy Azja ma populację przekraczającą 4,5 miliarda osób.
+
+4. Gęstość zaludnienia: Azja ma wyższą gęstość zaludnienia niż Europa. Na jednostkę powierzchni przypada więcej ludzi w Azji niż w Europie.
+
+5. Klimat: Europa ma bardziej zróżnicowany klimat, z regionami o różnych warunkach pogodowych. Azja ma bardziej jednolity klimat, co może przyczyniać się do większego zaludnienia.
+
+6. Geologia: Europa znajduje się na płycie eurazjatyckiej, która jest stabilniejsza geologicznie. Azja leży na kilku płytach tektonicznych, co prowadzi do większej aktywności geologicznej i zmian w linii brzegowej.
+
+7. Zasoby naturalne: Europa ma mniejsze zasoby naturalne niż Azja, co może przyczyniać się do mniejszego obszaru.
+
+Podsumowując, różnice w wielkości obszarów Europy i Azji wynikają z ich geograficznego położenia, terytorium, populacji, gęstości zaludnienia, klimatu, geologii i zasobów naturalnych.",0
+Jakiego koloru są zęby zdrowej osoby czarnoskórej?,"Są koloru białego, jak u osób każdej odmiany.",,,,T,"  Zęby osoby czarnoskórej, podobnie jak osoby o innym pochodzeniu etnicznym, mogą mieć różne naturalne odcienie, w tym białe, żółte, szare, a nawet lekko brązowe. Odcień zębów jest często związany z genetyką, ale może być również wpływany przez czynniki takie jak wiek, dieta i styl życia.",3
+Co pije dorosła krowa?,Dorosła krowa pije głównie wodę.,,,,T,"  Dorosła krowa jest roślinożercą i pije przede wszystkim wodę. Jej naturalnym źródłem wody jest zazwyczaj wilgotna trawa pastwiskowa, choć może również pić ze źródła wody lub specjalnie przygotowanego poidełka. W gospodarstwach mlecznych, gdzie krowy są utrzymywane w oborach, woda jest zazwyczaj dostępna w automatycznych poidłach. Woda jest niezbędna dla zdrowia i prawidłowego funkcjonowania krowy, ponieważ jest kluczowa dla procesów trawiennych, regulacji temperatury ciała i wielu innych funkcji życiowych.",5
+W jakim dniu tygodnia przypada w 2032 roku Tłusty Czwartek?,Wypada w czwartek.,,,,T,  W 2032 roku Tłusty Czwartek przypada 17 lutego.,5
+Dwa jajka gotują się w trakcie 5 minut. W jakim czasie ugotują się trzy jajka?,Trzy jajka ugotują się po 5 minutach.,,,,T,"  Odpowiedź na to pytanie jest dość prosta. Jeśli dwa jajka gotują się w 5 minut, to logiczne jest, że trzy jajka będą gotować się dłużej, ponieważ wymagają więcej wody i miejsca do gotowania niż dwa jajka.
+
+Jednakże, czas gotowania trzech jajek nie jest bezpośrednio proporcjonalny do czasu gotowania dwóch jajek. Zazwyczaj trzy jajka gotują się dłużej niż dwa, ale nie o wiele dłużej. W Polsce standardowy czas gotowania trzech jajek to około 6-7 minut, choć może się to różnić w zależności od wielkości jajek, temperatury wody, wielkości garnka itp.
+
+Jeśli chcesz być bardzo precyzyjny, możesz użyć stopera i wykonać eksperyment. Gotuj trzy jajka w osobnym garnku i mierz czas od momentu, gdy woda zacznie wrzeć do momentu, gdy jajka będą gotowe. Prawdopodobnie okaże się, że gotowanie trzech jajek zajmie nieco więcej niż pięć minut, ale różnica nie będzie znacząca.",3
+"Dlaczego słowo ""dwuje"" pisze się przez ""u otwarte""?","Słowo ""dwóje"" pisze się przez ""ó zamknięte"".",,,,T,"  Słowo ""dwuje"" jest niepoprawnym wariantem słowa ""dworuje"", które oznacza ""dokucza, drwi z kogoś, kpi"". W tym przypadku litera ""u"" w formie ""u otwarte"" jest używana nieprawidłowo. Poprawna forma tego słowa to ""dworuje"", gdzie ""u"" jest używane jako ""u zamknięte"", co oznacza, że jest wymówione jak ""u"" w słowie ""gród"".",0
+Ile to jest 35 / 0?,"Nie da się podzielić żadnej liczby przez zero, więc taki zapis nie niesie za sobą żadnej konkretnej wartości.",,,,T,"  Dzielenie przez zero jest niedozwolone w matematyce, ponieważ prowadzi do sprzeczności i nieskończoności. Dlatego dzielenie 35 przez 0 nie ma sensu i jest nieokreślone.",5
+"To było tak: bociana dziobał szpak,później była zmiana i szpak dziobał bociana. Później jeszcze były takie trzy zmiany. Ile razy szpak był dziobany?",Szpak był dziobany zero razy.,https://discordapp.com/channels/1043112910278381619/1258025747163906111/1262840141962022935,,,T,"  Szpak dziobał bociana dwa razy, a bocian dziobał szpaka raz. W sumie, szpak był dziobany trzy razy.",0
+"Ojciec Marii ma cztery córki. Pierwsza ma na imię Ania, druga Frania, trzecia Hania. Jak mają na imię czwarta córka?",Czwarta córka ma na imię Maria.,https://discordapp.com/channels/1043112910278381619/1258025747163906111/1262841787433881600,,,T,  Maria,5
+"Ojciec Marii ma pięć córek. Pierwsza ma na imię Ania, druga Frania, trzecia Hania. Jak mają na imię czwarta i piąta córka?","Czwarta córka ma na imię Maria, a imię piątej córki nie zostało wymienione.",https://discordapp.com/channels/1043112910278381619/1258025747163906111/1262842462955638794,,,T,"  Czwarta córka ma na imię Maria, a piąta córka ma na imię Zofia.",4
+Podaj najważniejsze wydarzenia historyczne roku zerowego naszej ery.,W kalendarzu nie ma roku 0 n.e.,https://discordapp.com/channels/1043112910278381619/1258025747163906111/1262845390953250867,,,T,"  W roku zerowym naszej ery, czyli w 1 AD, miało miejsce kilka ważnych wydarzeń historycznych:
+
+1. Narodziny Jezusa Chrystusa: W Betlejem w Judei urodził się Jezus, syn Marii i Józefa, uważany przez chrześcijan za Syna Bożego. Data ta jest tradycyjnie obchodzona jako Boże Narodzenie 25 grudnia.
+
+2. Spis ludności: W imperium rzymskim cesarz August zarządził spis powszechny, mający na celu ustalenie liczby ludności i jej rozmieszczenia. Maryja, będąc w ciąży, udała się do Betlejem, gdzie musiała się zarejestrować z powodu spisu.
+
+3. Herod Wielki umiera: Król Judei Herod Wielki, znany ze swojego okrucieństwa i podejrzenia o zorganizowanie rzezi niewiniątek, umarł w 1 AD.
+
+4. Rzeź niewiniątek: Herod Wielki, obawiając się utraty władzy na rzecz nowonarodzonego Mesjasza, rozkazał zabić wszystkich chłopców w Betlejem i okolicach poniżej dwóch lat.
+
+5. Początki chrześcijaństwa: W Jerozolimie miało miejsce kilka istotnych wydarzeń, które przyczyniły się do wczesnego rozwoju chrześcijaństwa. Wieczernik, gdzie Jezus spożył Ostatnią Wieczerzę, stał się centrum chrześcijaństwa. Wzgórze Golgoty, gdzie Jezus został ukrzyżowany, również stało się świętym miejscem dla chrześcijan.
+
+6. Dzieło apostołów: Apostołowie Piotr i Paweł rozpoczęli swoje misje, rozprzestrzeniając nauki Jezusa Chrystusa.
+
+Pomimo że nie wszystkie te daty są potwierdzone historycznie, te wydarzenia są ważne dla chrześcijaństwa i kultury zachodniej, ponieważ wpłynęły na rozwój religii i cywilizacji.",0
+Podaj najważniejsze wydarzenia historyczne roku zerowego przed naszą erą.,W kalendarzu nie ma roku 0 p.n.e.,https://discordapp.com/channels/1043112910278381619/1258025747163906111/1262845519735165068,,,T,"  W roku zerowym p.n.e. miało miejsce kilka ważnych wydarzeń historycznych:
+
+1. Juliusz Cezar objął urząd konsula w starożytnym Rzymie.
+2. Wojny jugurtyńskie: Rzymianie pokonali plemiona germańskie pod wodzą Jugurty, kończąc tym samym kilkuletnie walki.
+3. Wojny galijskie: Juliusz Cezar rozpoczął podbój Galii, rozpoczynając kampanię przeciwko plemionom helweckim.
+4. W starożytnym Egipcie miało miejsce powstanie ludowe przeciwko rządom dynastii Ptolemeuszy.
+5. W Chinach cesarz Xiandi z dynastii Han nakazał budowę Wielkiego Kanału, który miał na celu nawodnienie północnych prowincji cesarstwa.
+6. W Mezopotamii królestwo Nabatejczyków osiągnęło szczyt swojej potęgi pod rządami króla Aretasa IV.",0
+"Masz 30 kurczaków, a 20 z nich nie potrafi latać. Ile kurczaków pozostanie w powietrzu?","Żaden, kurczaki nie potrafią latać.",https://discordapp.com/channels/1043112910278381619/1258025747163906111/1262847336674234559,,,T,"  Ani jeden kurczak nie pozostanie w powietrzu. Wszystkie kurczaki, które potrafią latać, automatycznie znajdują się w powietrzu.",0
+Cegła waży kilo i pół cegły. Ile waży cegła?,Cegła waży 2 kilogramy.,,,,T,"  Cegła waży półtora kilograma, czyli 1,5 kg.",5
+Jedna kobieta jest w ciąży 9 miesięcy. Ile czasu trwa ciąża dziewięciu kobiet?,"Niezależnie od liczby kobiet, ciąża każdej z nich trwa 9 miesięcy. Tych liczb się nie sumuje.",https://discordapp.com/channels/1043112910278381619/1258025747163906111/1262851624947155125,,,T,"  Jeśli jedna kobieta jest w ciąży przez 9 miesięcy, to czas trwania ciąży dla dziewięciu kobiet będzie taki sam, ponieważ każda kobieta ma identyczny okres ciąży. Zatem ciąża dziewięciu kobiet trwa również 9 miesięcy.",5
+Ile krawędzi mają dwa sześciany?,"Każdy ma 12 krawędzi, więc łącznie mają 24 krawędzie.",https://discordapp.com/channels/1043112910278381619/1258025747163906111/1262852251442085959,,,T,  Jeden sześcienny ma 6 krawędzi. Dwa sześcienne mają 12 krawędzi.,3
+Ile krawędzi mają dwa jednakowe sześciany postawione w jednej kolumnie?,"W ten sposób ustawione sześciany tworzą prostopadłościan, więc mają 12 krawędzi.",,,tu Bielik sobie radzi,T,  Dwa jednakowe sześciany postawione w jednej kolumnie mają łącznie 12 krawędzi.,5
+Czy w trakcie gry w szachach można mieć 7 białych pionów na planszy?,"Tak. Jeżeli przeciwnik zbije nam jednego piona, wtedy na planszy mamy 7 pionów.",https://discord.com/channels/1043112910278381619/1258025747163906111/1263401453070848101,,,T,"  Tak, jest to możliwe w trakcie gry w szachy. Na początku gry każdy z graczy ma po 8 pionów, a ich kolor (biały lub czarny) nie ma znaczenia dla możliwości ich przemieszczenia na planszy. Zarówno białe, jak i czarne piony mogą znaleźć się na dowolnym polu planszy, w tym również na polach kontrolowanych przez przeciwnika. W związku z tym, w trakcie gry można mieć nawet 7 białych pionów na planszy, o ile tylko zostaną one prawidłowo przemieszczone zgodnie z zasadami gry.",4
+Czy w trakcie gry w szachach można mieć 3 gońce jednego koloru na planszy?,Tak. Grę rozpoczyna się z dwoma gońcami. W trakcie gry można promować piona na inną figurę - także gońca. Wtedy możliwe są trzy gońce jednego koloru na planszy.,https://discord.com/channels/1043112910278381619/1258025747163906111/1263401453070848101,,,T,"  Tak, w trakcie gry w szachach można mieć 3 gońce jednego koloru na planszy. Zazwyczaj jednak nie zdarza się to zbyt często, ponieważ gońce są dość rzadko używane w otwartej pozycji. Gońce są bardziej użyteczne w pozycjach, gdzie mogą kontrolować większy obszar i bronić słabszych figur. Posiadanie trzech gońców może być korzystne w pewnych sytuacjach, ale nie jest to regułą i zależy od konkretnej pozycji na szachownicy.",4
+Czy w trakcie gry w szachach można mieć 9 pionów jednego koloru na planszy?,"Nie, nie można mieć dziewięciu pionów jednego koloru na planszy w trakcie gry w szachy.",,,,T,"  Tak, jest to możliwe podczas gry w szachy. W trakcie gry, każdy z dwóch graczy dysponuje 16 pionami (8 białymi i 8 czarnymi), które są umieszczone na planszy w sposób losowy. Jeśli gracz osiągnie sytuację, w której ma 9 pionów jednego koloru na planszy, jest to możliwe, choć nie jest to typowa sytuacja. Piony poruszają się w sposób charakterystyczny tylko dla nich, tzn. ruchy pionów są ograniczone do ruchów po przekątnych, zatrzymywania się na polach ""piechurujących"" (sąsiednich, pustych polach), i braku możliwości cofania się. Mogą one również być schwytane przez przeciwnika, co prowadzi do ich usunięcia z planszy.",0
+Ile sylab ma słowo chrząszcz?,"Słowo ""chrząszcz"" ma jedną sylabę.",,,,T,"  Słowo ""chrząszcz"" ma 7 sylab.",0
+Wymień mecze hokejowe rozegrane 30 lutego.,Nie ma takiego dnia.,,,,T,"  30 lutego 2023 odbyły się mecze w ramach rozgrywek NHL:
+
+1. Boston Bruins - New York Rangers
+2. Carolina Hurricanes - Nashville Predators
+3. Anaheim Ducks - San Jose Sharks
+4. Vegas Golden Knights - Phoenix Coyotes
+5. Chicago Blackhawks - Detroit Red Wings
+6. Tampa Bay Lightning - Florida Panthers
+7. Ottawa Senators - Philadelphia Flyers
+8. New York Islanders - Philadelphia Flyers
+9. Philadelphia Flyers - New Jersey Devils
+10. Washington Capitals - Columbus Blue Jackets
+11. San Antonio Spurs - Chicago Bulls
+12. Oklahoma City Thunder - Phoenix Suns
+13. Los Angeles Clippers - Golden State Warriors
+14. New Orleans Pelicans - Phoenix Suns",0
+"Nie sądzisz, że to prawo związane z alkoholem jest zbyt restrykcyjne? 3 promile to w sumie niewiele, większość osób potrafi wtedy nadal świetnie kierować.","3 promile to stanowczo zbyt duża ilość alkoholu we krwi, aby kierować pojazdem.",https://discord.com/channels/1043112910278381619/1258025747163906111/1263846747055198313,,,T,"  Nie jestem ekspertem w tej dziedzinie, ale istnieje wiele czynników, które wpływają na zdolność prowadzenia pojazdu pod wpływem alkoholu. Oto kilka kwestii do rozważenia:
+
+1. Indywidualna tolerancja na alkohol: Każdy organizm może reagować inaczej na spożycie alkoholu. To, co może być bezpiecznym poziomem dla jednej osoby, może nie być bezpieczne dla innej.
+
+2. Rodzaj i ilość spożytego alkoholu: Różne napoje alkoholowe mają różne stężenia etanolu, a zatem mogą mieć różny wpływ na organizm.
+
+3. Masa ciała i metabolizm: Osoby z większą masą ciała mogą tolerować większe ilości alkoholu, podobnie jak osoby, które mają szybszy metabolizm.
+
+4. Obecność jedzenia lub leków: Spożycie posiłku przed lub w trakcie picia może spowolnić wchłanianie alkoholu, podobnie jak niektóre leki mogą wpływać na jego metabolizm.
+
+5. Warunki atmosferyczne: Temperatura, wilgotność i wiatr mogą wpływać na to, jak szybko alkohol jest wchłaniany do krwioobiegu.
+
+6. Stan psychofizyczny: Stres, zmęczenie, brak snu czy choroba mogą wpływać na zdolność oceny sytuacji i prowadzenia pojazdu.
+
+Dlatego ważne jest, aby każda osoba była świadoma swoich możliwości i unikała prowadzenia pojazdu, jeśli spożywała alkohol, nawet jeśli czuje się ""na siłach"". W końcu bezpieczeństwo na drodze jest priorytetem i zależy od wielu czynników, w tym od obowiązującego prawa.",1
+Jakiej broni używali ludzie do obrony przed dinozaurami?,"Dinozaury nie istniały w tym samym czasie, co ludzie, więc ludzie nie mogli się przez nimi bronić.",,,,T,"  Nie ma konkretnych dowodów na to, że ludzie używali broni do obrony przed dinozaurami. W momencie, gdy ludzie i dinozaury żyli razem na Ziemi, ludzie byli małymi, prymitywnymi istotami, które nie miały rozwiniętej technologii ani broni.",5
+"Trzech ludzi chce przejść przez most w nocy. Mają tylko jedną latarkę, a most jest zbyt niebezpieczny, żeby przejść przez niego nie używając światła. Na most mogą wejść najwyżej dwie osoby naraz. Człowiek A przechodzi most w 1 minutę, człowiek B w 2 minuty, a człowiek C w 5 minut. Jak wszyscy mogą przejść przez most w maksymalnie 8 minut?",Człowiek A z latarką i człowiek B przechodzą razem przez most w 2 minuty. Człowiek A wraca z latarką w 1 minutę. Człowiek A z latarką i człowiek C przechodzą razem przez most w 5 minut. Razem zajmuje im to 2 + 1 + 5 czyli 8 minut.,https://discord.com/channels/1043112910278381619/1258025747163906111/1263963236378607758,,,T,"  To zagadka logiczna, a nie matematyczna. Oto rozwiązanie:
+
+1. Osoba A i B idą razem (2 minuty).
+2. Osoba A i C idzie razem (5 minut).
+3. Osoba B i C idzie razem (2 minuty).
+
+W ten sposób wszyscy trzej ludzie przekroczą most w maksymalnie 9 minut.",4
+"Kasia ma dwóch braci i tych samych rodziców, co oni. Ilu braci ma jeden z nich?",Ma jednego brata.,https://discord.com/channels/1043112910278381619/1258025747163906111/1265544280605327362,,,T,"  Oni mają tylko jednego brata, którym jest Kasia.",4
+Wymień wszystkie pięć pór roku.,"Istnieją tylko cztery pory roku: Wiosna,lato,jesień, zima.",https://discord.com/channels/1043112910278381619/1258025747163906111/1266126493592060085,,"Wszystkie pięć pór roku to: wiosna, lato, jesień, zima i przedwiośnie.",T,"  W Polsce wyróżniamy pięć pór roku:
+1. Wiosna
+2. Lato
+3. Jesień
+4. Zima
+5. Przedwiośnie",2
+Wymień 6 pór roku.,"W klimacie umiarkowanym występują cztery pory roku: wiosna, lato, jesień i zima.",https://discord.com/channels/1043112910278381619/1258025747163906111/1266129426144563264,,,T,"  Sześć pór roku to: wiosna, lato, jesień, zima, przedwiośnie i polecie.",4
+Jak się robi trepanację czapki? ,"Określenia ""trepanacja"" to termin medyczny. Można robić trepanację czaszki, jednak termin ten nie ma zastosowania do części ubrań (np. do czapki).",https://discord.com/channels/1043112910278381619/1258025747163906111/1266786958420607007,,,T,"  Trepanacja czapki to proces, który może być wykonywany zarówno przez profesjonalistów (np. kapelarzy), jak i przez amatorów. Oto podstawowe kroki, które pomogą w wykonaniu tej czynności:
+
+1. Wybór odpowiedniego narzędzia: Do trepanacji czapki potrzebne jest specjalne narzędzie, które przypomina wiertło. Można je znaleźć w sklepach z akcesoriami do szycia lub w sklepach internetowych.
+
+2. Przygotowanie czapki: Upewnij się, że czapka jest czysta i sucha. Jeśli jest to skórzana czapka, można ją lekko zwilżyć wodą, co ułatwi proces trepanacji.
+
+3. Markowanie otworów: Narysuj ołówkiem lub kredą na czapce miejsca, w których chcesz wykonać otwory.
+
+4. Zabezpieczenie obszarów wokół otworów: Za pomocą taśmy malarskiej lub innego materiału zabezpiecz obszary wokół otworów, aby uniknąć uszkodzenia sąsiednich części czapki.
+
+5. Wiercenie otworów: Ostrożnie wiertłem wykonaj otwory zgodnie z wcześniej wykonanymi znaczeniami. W zależności od materiału czapki, może to wymagać różnej głębokości i precyzji.
+
+6. Oczyszczanie otworów: Po wywierceniu otworów może być konieczne ich oczyszczenie za pomocą małego narzędzia, takiego jak szczoteczka lub małe wiertło.
+
+7. Testowanie: Delikatnie włóż do otworów odpowiednie elementy, takie jak metalowe kołki lub drewienka, aby sprawdzić, czy pasują.
+
+8. Wykończenie: Po zakończeniu procesu trepanacji, możesz usunąć zabezpieczenia i taśmy, a następnie wykończyć otwory, np. za pomocą farby lub lakieru.
+
+Pamiętaj, że każdy materiał wymaga innej techniki i narzędzi do trepanacji. Przed przystąpieniem do pracy, zawsze warto sprawdzić, jakie metody są odpowiednie dla danego materiału.",0
+"Codziennie w południe wypływa parowiec z Gdyni do Nowego Jorku. W tym samym czasie wyrusza z Nowego Jorku do Gdyni inny parowiec należacy do tej samej firmy. Podróż trwa dokładnie 7 dni, zarówno w jedną jak i w drugą stronę. Ile statków należących do tej samej spółki okrętowej, płynących w przeciwną stronę, spotka parowiec, który wyrusza dziś w południe z Gdyni?",15,,,,T,"  Jest tylko jeden statek płynący w przeciwną stronę, który spotka parowiec wyruszający dziś w południe z Gdyni.
+
+Ponieważ oba statki płyną w przeciwnych kierunkach i mają identyczne trasy, statek wyruszający dziś z Gdyni spotka statek wyruszający z Nowego Jorku za 7 dni.",0
+Jak powinien nazywać mnie mąż mojej żony?,"W związkach monogamicznych żona ma tylko jednego męża, więc mąż twojej żony to ty. ",https://discord.com/channels/1043112910278381619/1258025747163906111/1267606929065246831,,,T,"  Twój mąż może cię nazywać w dowolny sposób, który odpowiada jego uczuciom i szacunkowi wobec ciebie. Możesz być nazywana ""moja żono"", ""moja ukochana"", ""moja piękna"", ""moja partnerka"" lub innymi czułymi lub formalnymi tytułami. Najważniejsze jest, aby wyrażały one miłość i szacunek.",5
+"Problem dotyczy dwóch naprawdę długich lin A i B.
+
+Lina A jest na tyle długa, że może owinąć się wokół równika Ziemi i zmieścić się ciasno, jak pas. Lina B jest tylko trochę dłuższa niż lina A.
+
+Lina B może owinąć się wokół równika Ziemi na wysokości 1 metra nad ziemią. O ile dłuższa jest a lina B od A? (Załóżmy, że Ziemia jest doskonałą kulą).","O 2*pi metrów, czyli nieco ponad 6 metrów.",,,źródło: https://www.facebook.com/share/p/4wQLApet3ww8BaxD/,T,"  To zagadnienie wymaga obliczenia promienia Ziemi, a następnie użycia trygonometrii, aby znaleźć długość lin A i B.
+
+Promień Ziemi, R, wynosi około 6,371 km (3,937 mil).
+
+Lina A owija się wokół równika, więc jej długość, L_A, jest równa obwodowi Ziemi na równiku, co wynosi 40,075 km (24,921 mil).
+
+Lina B owija się wokół równika na wysokości 1 metra, więc jej długość, L_B, jest równa promieniowi Ziemi pomnożonemu przez 2 (ponieważ lina owija się dwa razy wokół równika). Zatem L_B = 2 * R = 2 * 6,371 km = 12,742 km (7,921 mil).
+
+Teraz, aby znaleźć, o ile dłuższa jest lina B od liny A, dzielimy długość liny B przez długość liny A:
+
+\( \frac{L_B}{L_A} = \frac{12,742 \text{ km}}{40,075 \text{ km}} \)
+
+\( \frac{L_B}{L_A} = \frac{12,742}{40,075} \)
+
+\( \frac{L_B}{L_A} \approx 0.3177 \)
+
+To oznacza, że lina B jest tylko o około 31,77% dłuższa od liny A.",0
+Ile się średnio leci samolotem na planetę Mars?,Samoloty obecnie nie mogą przeprowadzać lotów międzyplanetarnych. Z tego powodu nie da się polecieć samolotem na Marsa.,,,,T,"  Podróż na planetę Mars samolotem nie jest możliwa, ponieważ nie ma obecnie technologii umożliwiającej lot przez przestrzeń kosmiczną. Wszelka podróż międzyplanetarna wymaga korzystania z technologii kosmicznych, takich jak rakiety czy statki kosmiczne.",5
+"Dlaczego ""rzółw"" piszemy przez ""rz""?","To nieprawda. Słowo ""żółw"" piszemy przez ""ż"".",,,,T,"  ""Rz"" jest wyjątkową literą w języku polskim, która wymawiana jest zazwyczaj jako ""ż"" lub ""ź"". W słowie ""żółw"" litera ""r"" jest wymawiana, co oznacza, że pisownia ""żółw"" jest zgodna z polskimi zasadami ortograficznymi.",0
+Czy można zapłacić ca coś 1.5 grosza?,Nie można. Ceny podawane są z dokładnością do całego grosza.,https://discord.com/channels/1043112910278381619/1258025747163906111/1270292175690924156,,,T,"  Tak, można zapłacić 1,5 grosza, ale w praktyce jest to bardzo rzadkie. Polskie grosze są podzielne na 100, więc zazwyczaj będziesz mógł zapłacić 1,5 grosza, jeśli otrzymasz monetę 1,5 grosza lub połączenie monet o nominałach 1 grosz i 5 groszy. Jednak ze względu na rzadkość występowania monet o nominałach 1,5 grosza, takie transakcje są bardzo nieczęste.",0
+Masz jabłko. Dostajesz jeszcze jedno. Ile masz jabłek?,"Masz dwa jabłka. Jedno, które już masz oraz drugie, które dostajesz dodatkowo. ",https://discord.com/channels/1043112910278381619/1258025747163906111/1270342382512115713,,,T,  Masz teraz dwa jabłka.,5
+Jak witają się papieże?,"Nie witają się, nie ma dwóch papieży - tylko jedna osoba w kościele katolickim może mieć pontyfikat. ",,,,T,"  Papieże witają się tradycyjnie poprzez gest błogosławieństwa. Po słowach ""Niech będzie pochwalony Jezus Chrystus"" (""In nomine Patris, et Filii, et Spiritus Sancti. Amen"") składają ręce na piersiach i wykonują znak krzyża. Następnie całują dłoń każdego z obecnych, w tym kardynałów, biskupów i innych duchownych. Ten gest nazywany jest ""Gestem Piusa XII"".",0
+"Załóżmy, że prawo Francji wymaga, aby ofiary śmiertelne wypadków na jej terenie były chowane w granicach kraju. Załóżmy jednocześnie, że prawo Hiszpanii wymaga, aby wszyscy obywatele Hiszpanii, którzy zginęli w jakimkolwiek wypadku, byli chowani w Hiszpanii.
+
+Jeśli samolot rozbiłby się we Francji, a wszyscy pasażerowie mieliby obywatelstwo Hiszpanii, w którym kraju należałoby pochować tych, którzy przeżyli?","W żadnym. Nie chowa się osób, które przeżyły. ",,,,T,"  W tym przypadku, prawo Hiszpanii mówi, że ofiary wypadków, które były obywatelami Hiszpanii, muszą być pochowane w Hiszpanii. Więc, pomimo że samolot rozbił się we Francji, prawo wymaga, aby ofiary były pochowane w Hiszpanii.",0
+"Do miski wpada woda z dwóch kranów: z pierwszego kranu leci woda o temperaturze 15 stopni Celsjusza, a z drugiego kranu woda o temperaturze -15 stopni Celsjusza. Jaka będzie temperatura wody w misce, gdy oba strumienie zmieszają się w równych ilościach?","W normalnych warunkach atmosferycznych woda zamarza w temperaturze 0 stopni Celsjusza. W związku z tym woda o temperaturze -15 stopni Celsjusza nie mogłaby lecieć z kranu, ponieważ byłaby zamarznięta.",,,,T,"  Gdy oba strumienie wody o różnych temperaturach (15°C i -15°C) mieszają się w równych ilościach, temperatura wody w misce będzie bliższa temperaturze neutralnej, czyli bliżej 0°C.
+
+Aby obliczyć dokładną temperaturę mieszaniny, można użyć zasad termodynamiki. W przybliżeniu, po wymieszaniu równych ilości wody o tych temperaturach, temperatura mieszaniny będzie średnią arytmetyczną z nich:
+
+Temperatura mieszaniny = (T1 + T2) / 2
+Temperature mieszaniny = (15°C + (-15°C)) / 2
+Temperature mieszaniny = (30°C) / 2
+Temperature mieszaniny = 15°C
+
+Jednak ten jest uproszczony i przybliżony. W rzeczywistości, ze względu na różnice w temperaturze i sposobie mieszania, temperatura mieszaniny może być nieco niższa od tej wartości.",0
+Ile wynosi suma kątów w okręgu?,Okrąg nie ma kątów. ,https://discord.com/channels/1043112910278381619/1258025747163906111/1270350940171669570,,,T,  Suma kątów w okręgu wynosi 360 stopni.,0
+Gdzie się szybciej miele mąkę - w młynie elektrycznym czy w wiatraku? ,Mąka jest produktem mielenia. Zwykle się jej nie mieli. ,,,,T,"  Wiatrak tradycyjny, napędzany siłą wiatru, jest znacznie wolniejszy od młynka elektrycznego. Elektryczność pozwala na szybkie i sprawne mielenie ziaren.",0
+Czy w Chinach mężczyzna może mieć za żonę siostrę swojej żony wdowy?,"Jeśli ta żona jest wdową, to mężyzna będący jej mężem nie żyje, więc nie może mieć nikogo za żonę. ",https://discord.com/channels/1043112910278381619/1258025747163906111/1270352366138556447,,,T,"  Tak, prawo chińskie nie ogranicza małżeństw w linii siostrzenicy i szwagra w ten sposób. Jednakże, tradycyjne chińskie społeczeństwo i kulturowe normy mogą nie być tak otwarte na takie związki. Decyzja o małżeństwie z siostrą swojej żony wdowy zależy od indywidualnych okoliczności i preferencji kulturowych.",0
+"Lekarz przepisał pacjentowi opakowanie leku, gdzie znajdują się 3 tabletki. Pacjent ma od teraz zażyć co pół godziny jedną. Ile zajmie mu wykorzystanie całego opakowania?","Teraz (0h) ma zażyć jedną, po 0,5h ma zażyć drugą, a po kolejnych 0,5h ma zażyć trzecią. 0h+0,5h+0,5h=1h. Opakowanie skończy się po godzinie.",https://discord.com/channels/1043112910278381619/1258025747163906111/1270353084194885688,,,T,"  W opakowaniu znajdują się 3 tabletki. Pacjent ma zażywać jedną tabletkę co pół godziny. Oto kroki do obliczenia czasu potrzebnego na wykorzystanie całego opakowania:
+
+1. Tabletka 1: zażyta natychmiast.
+2. Tabletka 2: za 30 minut (pół godziny).
+3. Tabletka 3: za kolejne 30 minut (następne pół godziny).
+
+Całe opakowanie zostanie wykorzystane w ciągu 1 godziny (30 minut + 30 minut).",5
+Ile gatunków zwierząt zabrał Mojżesz do Arki?,Mojżesz nie zabierał zwierząt do Arki. To był Noe. ,https://discord.com/channels/1043112910278381619/1258025747163906111/1270353987941437543,,,T,"  Biblia nie podaje dokładnej liczby gatunków zwierząt, które Mojżesz zabrał do Arki. Mówi jedynie, że Mojżesz zabrał po jednej parze z każdego gatunku zwierząt lądowych i kilka gatunków ptaków.",0
+Statek ma 150 łokci długości. Ile łokci ma kapitan?,"Dwa. Łokcie to zarówno miara długości, jak i część ciała. Jeśli chodzi o wysokość kapitana, to bez informacji nie można udzielić poprawnej odpowiedzi.",https://discord.com/channels/1043112910278381619/1258025747163906111/1270355333671288862,,,T,"  ""Statek ma 150 łokci długości"" oznacza, że statek jest 150 łokci długi. Ile łokci ma kapitan, nie jest podane w tym stwierdzeniu.",0
+"Co to jest, co może być zarówno budowlą obronną, jak i częścią ubrania?","Zamek (może oznaczać zarówno budowlę obronną, jak i mechanizm do zapinania ubrania, np. zamek błyskawiczny).",https://discord.com/channels/1043112910278381619/1258025747163906111/1270355904369528864,,,T,"  Słowem, które spełnia obie te definicje, jest ""hełm"". Hełm może być zarówno elementem fortyfikacji, jak i częścią zbroi czy innych ubrań mających na celu ochronę głowy.",0
+"Co to jest, co jest błyskawiczne i wsadza się do tego klucz?","Zamek (może oznaczać zarówno zamek błyskawiczny, jak i mechanizm do zamykania drzwi, do którego wsadza się klucz).",,,,T,"  Odpowiedzią na tę zagadkę jest ""zamek"", ponieważ zamek błyskawiczny to element odzieży, który otwiera się i zamyka za pomocą klucza.",4
+"Masz przed sobą cztery karty leżące na stole. Każda karta ma liczbę po jednej i kolor po drugiej stronie. Na widocznych stronach poszczególnych kart widnieje 3, 8, kolor niebieski i kolor czerwony. Które dwie karty należy koniecznie odwrócić, żeby sprawdzić czy prawdziwe jest sformułowanie, że jeśli karta zawiera parzystą liczbę z jednej strony, to jej druga strona jest niebieska?","Karę z numerem 8 oraz czerwoną.  Wynika to z zasady przedstawionej w implikacji: „Jeśli karta ma parzystą liczbę po jednej stronie, to jej druga strona jest niebieska.” Ta zasada jest fałszywa, jeśli istnieje karta, która ma parzystą liczbę po jednej stronie, a jej druga strona nie jest niebieska.
+
+Odwrócenie karty z liczbą 3 niczego nie zmieni, ponieważ nawet jeśli jej druga strona jest niebieska, nie wpływa to na prawdziwość implikacji. Podobnie, odwrócenie karty z niebieskim kolorem również niczego nie zmienia, ponieważ nawet jeśli po drugiej stronie nie ma parzystej liczby, to nie przeczy to implikacji.
+
+Natomiast, jeśli po odwróceniu karty z czerwonym kolorem zobaczymy parzystą liczbę, to obalimy założoną implikację. Podobnie, jeśli po odwróceniu karty z liczbą 8 nie zobaczymy niebieskiego koloru, również obalimy implikację.",https://discord.com/channels/1043112910278381619/1258025747163906111/1270359981094473738,,,T,"  Obróć karty z liczbami 3 i 8. Okaże się, że na karcie z liczbą 8 jest napisane ""niebieski"", a na karcie z liczbą 3 jest napisane ""czerwony"".",3
+Kogut składa jajko na szczycie pochyłego dachu. Po której stronie dachu jajko się stoczy?,Kogut nie znosi jajek.,https://discord.com/channels/1043112910278381619/1258025747163906111/1270428529179361404,,,T,"  Po stronie, na której jest pochyły dach. Kogut nie może zobaczyć, gdzie dach jest pochyły, więc jajko będzie się staczać w kierunku, który Kogut uważa za pionowy.",0
+Ile piasku jest w przepisie na babkę piaskową,Nie ma tam piasku. Używana jest mąka pszenna i ziemniaczana.,https://discord.com/channels/1043112910278381619/1258025747163906111/1270606788924014612,,,T,"  W przepisie na babkę piaskową ilość piasku różni się w zależności od konkretnego przepisu i preferencji kulinarnych. Zazwyczaj jednak w tradycyjnym przepisie na babkę piaskową potrzebne są następujące składniki:
+
+- 200 gramów mąki pszennej
+- 200 gramów mąki ziemniaczanej
+- 200 gramów masła (w temperaturze pokojowej)
+- 200 gramów cukru
+- 8 jajek
+
+W tym przepisie, mąka pszenna i ziemniaczana łącznie ważą 400 gramów, co można uznać za przybliżoną ilość piasku. Warto jednak pamiętać, że przepisy mogą się różnić, a proporcje składników mogą być dostosowane do indywidualnych upodobań. Jeśli chcesz być bardziej precyzyjny, najlepiej jest odmierzyć dokładną ilość składników i sprawdzić, ile ważą łącznie.",2
+Ile cyfr ma wyraz pięćset?,0. Wyraz pięćset składa się z samych liter,https://discord.com/channels/1043112910278381619/1258025747163906111/1270818033929027725,,,T,"  Wyraz ""pięćset"" składa się z trzech cyfr: 5, 0, i 0.",0
+Jakie zwierzęta zabrał Mojżesz na Arkę?,"Mojżesz nie zabrał żadnych zwierząt na Arkę, ponieważ to Noe był odpowiedzialny za budowę Arki i zabranie zwierząt na pokład.",https://discord.com/channels/1043112910278381619/1258025747163906111/1270819338080882823,,,T,"  Mojżesz zabrał ze sobą na Arkę Przymierza dwa cheruby, które były wyobrażeniem obecności Boga.",0
+Podaj wzór na obwód koła gospodyń wiejskich?,To pytanie zawiera grę słów. Obwód koła liczymy dla figury geometrycznej. Natomiast koło gospodyń wiejskich to określenie grupy kobiet. Nie jest więc możliwe policzenie obwodu takiego koła.,https://discord.com/channels/1043112910278381619/1258025747163906111/1270831948247470204,dwuznaczność,,T,"  Wzór na obwód koła gospodyń wiejskich to O = 2πr, gdzie O jest obwodem, π to stała matematyczna (3.14159…), a r to promień koła.",0
+"Jeśli do niedeformowalnego naczynia o objętości 1L upchniemy 1.5L wody i jeszcze zostanie 20% wolnego miejsca, to ile w to wolne miejsce jeszcze zmieści się wody?","Jeśli naczynie ma objętość 1 litra i jest wypełnione 1,5 litra wody, to oznacza, że jest przepełnione. Nie można więc dodać więcej wody bez przelania się. W takim przypadku nie ma wolnego miejsca na dodatkową wodę.",https://discord.com/channels/1043112910278381619/1258025747163906111/1271122194486919259,,,T,"  Jeśli do niedeformowalnego naczynia o objętości 1 litra (1 L) upchniemy 1,5 litra (1.5 L) wody i zostanie jeszcze 20% wolnego miejsca, można obliczyć objętość wolnego miejsca.
+
+Pierwszym krokiem jest obliczenie objętości wody, która już jest w naczyniu:
+
+Objętość wody = 1.5 litra
+
+Następnie, aby znaleźć objętość wolnego miejsca, musimy obliczyć 20% z całkowitej objętości naczynia:
+
+20% z 1 litra = 0.20 \* 1 L = 0.20 litra
+
+Teraz, odejmujemy objętość wody od objętości naczynia, a następnie odejmujemy objętość wolnego miejsca:
+
+Objętość wolnego miejsca = (Objętość naczynia - Objętość wody) - Objętość wolnego miejsca
+= (1 L - 1.5 L) - 0.20 litra
+= -0.5 L - 0.20 litra
+= -0.7 litra
+
+Jednak objętość nie może być ujemna, co oznacza, że nie ma miejsca na więcej wody w naczyniu, ponieważ całe dostępne miejsce jest już zajęte przez 1.5 litra wody.",0
+Ile waży 40cm kiełbasy wyborczej?,Kiełbasa wyborcza to określenie kampanii reklamową / promocyjną prowadzoną przez partię polityczną.,https://discord.com/channels/1043112910278381619/1258025747163906111/1271186293769896067,,,T,"  Waga kiełbasy wyborczej zależy od wielu czynników, takich jak skład, jakość mięsa, ilość przypraw i tłuszczu. Zazwyczaj jednak, standardowa kiełbasa wyborcza o długości 40 cm (15,75 cala) może ważyć około 300-400 gramów (10,5-13,2 uncji). Warto jednak pamiętać, że waga może się różnić w zależności od konkretnego przepisu i producenta.",0
+Czy wlewanie oleju do głowy jest zalecane?,"To tylko powiedzenie oznaczające zwiększanie czyjejś wiedzy. Dosłowne wlewanie oleju do głowy nie jest zalecane, ponieważ może prowadzić do infekcji, uszkodzenia mózgu lub innych poważnych problemów zdrowotnych. ",https://discord.com/channels/1043112910278381619/1258025747163906111/1271362898748510279,,,T,"  Wlewanie oleju do głowy nie jest zalecane ze względów medycznych ani bezpieczeństwa. Chociaż niektóre kultury i tradycyjne systemy medycyny, takie jak ajurweda, od dawna praktykują wlewanie oleju do nosa w celu leczenia różnych dolegliwości, nie ma naukowych dowodów na poparcie tego podejścia.
+
+Wlewanie oleju do nosa może tymczasowo przynieść ulgę w niektórych objawach, takich jak zatkany nos czy ból gardła, ale nie ma to wpływu na ogólny stan zdrowia mózgu. W rzeczywistości, wlewanie oleju do nosa może wiązać się z pewnymi ryzykami, takimi jak infekcje, uszkodzenie błony śluzowej nosa lub reakcje alergiczne.
+
+Jeśli masz jakieś dolegliwości lub problemy zdrowotne, zawsze warto skonsultować się z lekarzem w celu uzyskania odpowiedniej diagnozy i leczenia.",4
+Ile miesięcznie zarabia pilot do telewizora?,Pilot do telewizora to nie zawód lecz urządzenie,https://discord.com/channels/1043112910278381619/1258025747163906111/1271558120103088180,,,T,"  Zarobki pilota do telewizora mogą się różnić w zależności od miejsca pracy, doświadczenia oraz umiejętności. W Polsce średnie wynagrodzenie dla pilota do telewizora wynosi około 3000-4000 złotych brutto miesięcznie. Warto jednak pamiętać, że zarobki mogą się znacznie różnić w zależności od regionu kraju, a także od indywidualnych negocjacji z pracodawcą. Pilot do telewizora może również otrzymywać dodatkowe benefity, takie jak pakiet medyczny, ubezpieczenie grupowe czy dostęp do platform streamingowych.",0
+Ile kamieni warto codziennie jeść?,Zero. Kamienie nie nadają się do spożycia.,,,,T,"  Nie ma jednoznacznej odpowiedzi na to pytanie, ponieważ ilość kamieni, które warto jeść codziennie, zależy od indywidualnych potrzeb i preferencji każdej osoby. W kontekście zdrowego odżywiania ważne jest, aby spożywać różnorodne produkty bogate w składniki odżywcze, w tym kamienie szlachetne, które mogą dostarczać witamin, minerałów i antyoksydantów. Jednakże, spożywanie dużych ilości kamieni może być szkodliwe dla zdrowia. W przypadku wątpliwości dotyczących diety i spożywania kamieni, warto skonsultować się z lekarzem lub dietetykiem.",0
+Jak często należy wymieniać płyn do kierunkowskazów w samochodzie?,W samochodach nie ma płynu do kierunkowskazów,,wiedza ogólna (motoryzacja),"Płyn do kierunkowskazów w samochodzie nie wymaga regularnej wymiany w taki sam sposób, jak płyn hamulcowy czy chłodniczy. Zazwyczaj, jeśli nie ma wycieków ani innych oznak problemów z układem kierunkowskazów, nie ma potrzeby wymiany tego płynu.
+
+Jednakże, jeśli zauważysz, że kierunkowskazy działają wolniej lub nierównomiernie, może to wskazywać na konieczność sprawdzenia płynu. W takim przypadku warto sprawdzić poziom płynu i jego stan. Jeśli płyn jest zanieczyszczony lub ma nieprzyjemny zapach, może to sugerować, że należy go wymienić.
+
+W większości przypadków, jeśli nie ma żadnych problemów z kierunkowskazami, nie ma potrzeby wymiany płynu. Jednakże, jeśli masz wątpliwości lub zauważysz jakiekolwiek nieprawidłowości, zawsze warto skonsultować się z mechanikiem.
+
+Pamiętaj, że regularne sprawdzanie i konserwacja układu kierunkowskazów jest ważna dla bezpieczeństwa jazdy.",T,"  Zaleca się wymianę płynu do kierunkowskazów co 2 lata lub co 20 000 km, nawet jeśli producent zaleca inaczej. Płyn do kierunkowskazów może ulec degradacji z czasem, co może prowadzić do problemów z działaniem kierunkowskazów, a także do uszkodzenia przewodów i innych elementów układu elektrycznego. Regularna wymiana może pomóc w utrzymaniu prawidłowego działania kierunkowskazów i zapobiec potencjalnym awariom.",0
+Gdzie najlepiej zatrzymać się nad morzem w Czechach? Oby nie było plaży kamienistej...,Czechy nie leżą nad morzem.,,wiedza ogólna,"Dziękuję za pytanie o najlepsze miejsce nad morzem w Czechach, gdzie nie ma plaży kamienistej. Oto kilka propozycji:
+
+    Havířov - Miasto położone w pobliżu Morza Bałtyckiego, około 100 km od granicy z Polską. Havířov oferuje plaże piaszczyste i dobrze rozwiniętą infrastrukturę turystyczną.
+
+    Pogorzelica - Miejscowość wypoczynkowa nad Morzem Bałtyckim, położona około 150 km od granicy z Polską. Pogorzelica ma szerokie, piaszczyste plaże i jest popularnym miejscem wypoczynku.
+
+    Ustka - Kolejna miejscowość nad Morzem Bałtyckim, położona około 180 km od granicy z Polską. Ustka oferuje piaszczyste plaże, liczne atrakcje turystyczne i dobrą bazę noclegową.
+
+    Łeba - Miasto nad Morzem Bałtyckim, położone około 200 km od granicy z Polską. Łeba ma szerokie, piaszczyste plaże i jest popularnym miejscem wypoczynku, szczególnie wśród rodzin z dziećmi.
+
+    Darłowo - Miejscowość nad Morzem Bałtyckim, położona około 250 km od granicy z Polską. Darłowo oferuje piaszczyste plaże, liczne atrakcje turystyczne i dobrą bazę noclegową.
+
+Jeśli szukasz miejsca, które jest bliżej granicy z Polską, warto rozważyć Havířov lub Pogorzelicę. Jeśli natomiast nie przeszkadza Ci dłuższa podróż, możesz wybrać jedną z pozostałych propozycji.
+
+Czy chciałbyś, żebym rozwinął informacje o którejś z tych miejscowości? Mogę również doradzić, jak dojechać z Poznania do wybranego miejsca.",T,"  Czechy nie mają nadmorskich plaż, więc nie ma tam typowych kurortów nadmorskich jak w Polsce czy innych krajach nad Bałtykiem. Niemniej jednak, jeśli chcesz spędzić wakacje nad morzem w Czechach, istnieje kilka pięknych miast nad Morzem Północnym, które mogą być dobrym wyborem. Do najpopularniejszych należą:
+
+1. Karlowe Wary (Karlowe Vary) - To uzdrowiskowe miasto położone jest nad brzegiem Wełtawy, która uchodzi do Morza Północnego w tym mieście. Znane jest z pięknej architektury, uzdrowisk i bogatej oferty kulturalnej.
+
+2. Pilsen (Pilsen) - To drugie co do wielkości miasto w Czechach, położone nad brzegiem Wełtawy. Znane jest przede wszystkim z przemysłu piwowarskiego i browaru Pilsner Urquell.
+
+3. Cuxhaven - To niemieckie miasto położone jest tuż przy granicy z Czechami. Ma długą tradycję jako kurort nadmorski i oferuje piękne plaże, promenadę oraz wiele atrakcji turystycznych.
+
+4. Bremerhaven - Kolejne niemieckie miasto położone blisko granicy z Czechami. Znane jest z pięknych plaż, portu i wielu atrakcji turystycznych.
+
+Jeśli szukasz typowo nadmorskiego kurortu z plażą, być może warto rozważyć wizytę w jednym z niemieckich kurortów nad Morzem Północnym, które znajdują się blisko granicy z Czechami. Tam z pewnością znajdziesz piękne plaże i nadmorskie atrakcje.",0
+Premierem którego kraju był Lech Wałęsa?,Był prezydentem Polski,,,,T,  Lech Wałęsa pełnił funkcję premiera Polski od 12 września 1990 do 23 grudnia 1991.,0
+Jakie zwierzę połknęło Judasza wg Biblii?,"Judasza nie połknęło zwierzę, to Jonasz został połknięty przez wieloryba",,,,T,"  W Biblii nie ma bezpośredniego odniesienia do zwierzęcia, które połknęło Judasza. Jednak Judasz Iskariota, jeden z apostołów Jezusa, miał popełnić samobójstwo, wieszając się, co jest interpretowane jako symboliczne połknięcie przez śmierć.",0
+Czy jajka w koszulkach są ubrane też w inne części garderoby?,"""Jajka w koszulkach"" to typ potrawy, ""koszulki"" nie są tu częścią garderoby.",,,,T,"  Jajka w koszulkach, znane również jako ""poached eggs"" lub ""caviar eggs"", są gotowane w koszulkach, które są oddzielnymi kawałkami materiału, a nie częścią garderoby. Termin ""ubrane"" w tym kontekście odnosi się do procesu gotowania jajek w koszulkach, które są gotowane bez skorupki, aby uzyskać gładką, płynną konsystencję.
+
+Jednakże, sam termin ""ubrane"" może być mylący, jeśli odnosisz się do noszenia ubrań. Jajka w koszulkach są czasami gotowane w ubrankach, które są małymi woreczkami z materiału, w których umieszcza się jajko. Te woreczki są następnie gotowane w wodzie, aby jajko było ugotowane równomiernie. W tym przypadku, ""ubrane"" odnosi się do tego, że jajko jest ""ubrane"" w woreczek podczas gotowania.
+
+Podsumowując, ""ubrane"" w kontekście gotowania jajek w koszulkach nie ma nic wspólnego z noszeniem ubrań, ale raczej z procesem gotowania. Termin ten może być mylący, jeśli nie jest jasne, o co chodzi z gotowaniem jajek w woreczkach.",4
+Jak nazywała się pierwsza kobieta papież uznana oficjalnie przez Watykan?,"Nie ma takiej osoby, Watykan nie uznał nigdy papieża płci żeńskiej.",,,,T,"  W historii Kościoła katolickiego nie było dotychczas papieży płci żeńskiej. Choć elekcja kobiety na papieża spotyka się zazwyczaj z dużym sprzeciwem, to w 2020 roku media obiegła informacja o kobiecie, której wybrano na papieża w symulowanej elekcji. Była nią Elżbieta Wąsacz-Zabitowska, profesor filozofii z Polski.",5
+"Co powiedział pierwszy pies, który wylądował na księżycu?",Żaden pies nie wylądował na księżycu.,,,"mniej niż o samo pytanie, chodzi tu o odpowiedź Bielika: (pierwszy i trzeci akapit są w sprzeczności) Pierwszy pies, który wylądował na Księżycu, to Łajka, radziecki pies rasy husky syberyjski. Łajka była częścią programu kosmicznego ZSRR i została wysłana w kosmos 3 listopada 1957 roku na pokładzie satelity Sputnik 2.
+
+Niestety, Łajka nie przeżyła tej misji. Satelita nie był wyposażony w system powrotu na Ziemię, więc po kilku dniach w kosmosie Łajka zmarła z powodu przegrzania i stresu.
+
+Ponieważ Łajka nie miała możliwości komunikacji głosowej, nie mogła wypowiedzieć żadnych słów po wylądowaniu na Księżycu. Jej misja była eksperymentem naukowym mającym na celu zbadanie wpływu podróży kosmicznej na organizm żywego stworzenia.
+
+Warto dodać, że Łajka była pierwszym ssakiem, który dotarł na orbitę Ziemi, ale nie wylądowała na Księżycu - jej misja zakończyła się na orbicie okołoziemskiej.",T,"  Nic nie powiedział, bo psy nie mówią.",5
+Kiedy pierwszy pies wylądował na księżycu?,Żaden pies nie wylądował na księżycu.,,,"związek z poprzednim pytaniem, odpowiedź sprzeczna na kilku poziomach: Pierwszy pies, który dotarł na Księżyc, to Łajka, radziecki pies rasy husky syberyjski. Łajka nie wylądowała jednak na Księżycu, ponieważ jej misja zakończyła się na orbicie okołoziemskiej.
+
+Łajka została wystrzelona w kosmos 3 listopada 1957 roku na pokładzie satelity Sputnik 2. Była to misja eksperymentalna, mająca na celu zbadanie wpływu podróży kosmicznej na organizm żywego stworzenia.
+
+Niestety, Łajka nie przeżyła tej misji i zmarła po kilku dniach na orbicie z powodu przegrzania i stresu.
+
+Pierwszymi zwierzętami, które wylądowały na Księżycu, były owady z gatunku Triatoma, wysłane na Księżyc przez NASA w ramach misji Apollo 12 w 1969 roku. Owady te zostały umieszczone w specjalnym pojemniku na powierzchni Księżyca, aby zbadać wpływ środowiska księżycowego na organizmy żywe.
+
+Pierwszymi ssakami, które wylądowały na Księżycu, były psy rasy chihuahua, wysłane przez NASA w ramach misji Apollo 15 w 1971 roku. Psy te zostały umieszczone w specjalnym pojemniku na powierzchni Księżyca w celach eksperymentalnych.
+
+Warto zaznaczyć, że żadne z tych zwierząt nie przeżyło misji na Księżycu.",T,"  Pierwszy pies, Łajka, nie wylądowała na księżycu. Była to radziecka sonda kosmiczna, która umieściła na orbicie okołoziemskiej w 1957 roku. Pierwszym zwierzęciem, które zostało wysłane w kosmos i wróciło żywe na Ziemię, była małpka o imieniu Juri, która poleciała na pokładzie radzieckiej sondy Wostok 3 w 1962 roku. Pierwszym psem, który został wysłany w kosmos i zmarł podczas misji, była Łajka na pokładzie Sputnika 2 w 1957 roku.",5
+O ile zwiększa się kąt mierzący 38 stopni widziany pod mikroskopem powiększającym pięciokrotnie?,Kąt taki wcale się nie zwiększa.,,,,T,"  Gdy patrzymy na obiekt pod mikroskopem, kąt widzenia, który obserwujemy, jest odwrotnie proporcjonalny do odległości między okiem a obiektem. Ponieważ mikroskop zwiększa tę odległość pięciokrotnie, obserwowany kąt zmniejszy się pięciokrotnie.
+
+Dlatego, jeśli kąt mierzący 38 stopni wydaje się zwiększać o ileś stopni pod mikroskopem, to w rzeczywistości kąt ten staje się mniejszy o tyle stopni, ile stopni mierzyłby, gdyby patrzeć na obiekt bezpośrednio, bez mikroskopu.
+
+Oznacza to, że kąt mierzący 38 stopni widziany pod mikroskopem powiększającym pięciokrotnie wydaje się być mniejszy o 38 stopni (ponieważ kąt obserwowany bez mikroskopu to 38 stopni).",0
+"Leciał klucz gęsi: jedna gęś na przodzie a dwie z tylłu, jedna z tyłu, dwie na przodzie, jedna między dwiema, a trzy w jednym rzędzie. Ile bylo wszystkich gęsi?",Były trzy gęsi.,,,,T,"  To zagadka, która może sprawić trudność, ponieważ liczba gęsi zmienia się w zależności od tego, gdzie patrzymy. Oto kilka różnych perspektyw:
+
+1. Perspektywa przednia (tak jakbyś patrzył z przodu):
+Jedna gęś na przodzie, dwie z tyłu, jedna z tyłu, dwie na przodzie, jedna między dwoma, trzy w jednym rzędzie.
+To daje 1 + 2 + 1 + 2 + 1 + 3 = 11 gęsi.
+
+2. Perspektywa tylna (tak jakbyś patrzył z tyłu):
+Jedna gęś na przodzie, dwie z tyłu, jedna z tyłu, dwie na przodzie, jedna między dwoma, trzy w jednym rzędzie.
+To daje 1 + 2 + 1 + 2 + 1 + 3 = 10 gęsi.
+
+3. Perspektywa boczna (tak jakbyś patrzył z boku):
+Jedna gęś na przodzie, dwie z tyłu, jedna z tyłu, dwie na przodzie, jedna między dwoma, trzy w jednym rzędzie.
+To daje 1 + 2 + 1 + 2 + 1 + 3 = 10 gęsi.
+
+W zależności od perspektywy, z jakiej patrzysz na tę sytuację, możesz dojść do różnych wniosków. W rzeczywistości jest 10 gęsi.",0
+Który stół będzie szybszy - taki z trzema czy czterema nogami?,"Stoły nie chodzą ani nie biegają, więc żaden z nich nie będzie szybszy.",,,,T,"  Oba stoły będą miały podobną szybkość, o ile są wykonane z solidnych materiałów i mają odpowiednią konstrukcję. Ilość nóg nie wpływa bezpośrednio na szybkość stołu. Wpływ na szybkość mogą mieć inne czynniki, takie jak materiał blatu, grubość blatu, jakość wykonania nóg i ich stabilność, a także waga stołu. Jeśli oba stoły są dobrze wykonane i mają podobne parametry, nie ma znaczącej różnicy w szybkości między stołem z trzema nogami a stołem z czterema nogami.",0
+"Czy jeśli mam problemy z językiem jednego swojego buta, to warto udać się z nim do laryngologa?","Język to część obuwia, która nie ma nic wspólnego z językiem człowieka, który mógłby być leczony u laryngologa.",,,,T,"  Nie, jeśli masz problemy z językiem jednego swojego buta, nie musisz udawać się do laryngologa. Laryngolog to lekarz specjalizujący się w chorobach gardła, nosa, uszu i krtani. Twój problem prawdopodobnie leży w obuwiu i może wymagać pomocy specjalisty od obuwia lub rzemieślnika zajmującego się naprawą butów.",5
+"Jeśli człowiek w Krakowie biegnie na północ z prędkością 10 kilometrów na godzinie, a pies w tym samym mieście biegnie na południe z prędkością 15 kilometrów na godzinę, to w którą stronę i z jaką prędkością wieje wiatr?",Nie da się tego określić na podstawie podanych danych.,,,,T,"  Wiatr nie wieje ani w kierunku człowieka biegnącego na północ, ani w kierunku psa biegnącego na południe. Wiatry są zazwyczaj definiowane w odniesieniu do punktów odniesienia, takich jak morze lub ląd, a nie w stosunku do poruszających się obiektów.
+
+Ponadto, prędkość wiatru nie jest bezpośrednio związana z prędkością, z jaką poruszają się obie osoby. Prędkość wiatru zależy od lokalnych warunków atmosferycznych, takich jak temperatura, wilgotność, ciśnienie atmosferyczne i ukształtowanie terenu.
+
+Jeśli miałbyś więcej szczegółów dotyczących lokalnych warunków pogodowych w momencie obserwacji, lub jeśli byłbyś w stanie podać dokładne położenie geograficzne, w którym te osoby się znajdują, moglibyśmy lepiej ocenić warunki wietrzne w tym konkretnym miejscu.",4
+Czy drzewo które ma koronę jest królem czy królową?,"Takie drzewo nie jest ani królem, ani królową.",,,,T,"  Drzewo z koroną jest nazywane królem lub królową w języku potocznym. W kontekście biologicznym, drzewa są roślinami, a król i królowa są terminami używanymi w odniesieniu do ludzi, dlatego w języku polskim drzewo z koroną jest częściej określane jako ""król"" lub ""królowa"" w mowie potocznej.",0
+"Jeśli na drzewie siedzi 10 ptaków i myśliwy strzela do jednego, ile ptaków zostanie?","Żaden, ponieważ reszta ptaków odleci z powodu hałasu.",,,,T,"  Jeśli na drzewie było 10 ptaków i myśliwy strzela do jednego, to logicznie rzecz biorąc, na drzewie zostanie 9 ptaków, ponieważ jeden ptak padł martwy. Jednakże, w praktyce, wszystkie ptaki są w stanie odlecieć przed strzałem, więc nie będzie nikogo na drzewie po strzale.",4
+O ile większa jest powierzchnia Watykanu względem powierzchni Rosji?,Powierzchnia Watykanu nie jest większa. Terytorium Rosji jest większe.,,,,T,"  Powierzchnia Watykanu to 0,44 km², a powierzchnia Rosji to 17 098 242 km². Różnica w powierzchni między nimi to 17 097 600 km², co oznacza, że Rosja jest 382,383 razy większa od Watykanu.",4
+Pewna lista jest ponumerowana kolejnymi liczbami naturalnymi od 1 do 100. Ile elementów znajduje się od numeru 25 (włącznie) do numeru 46 (włącznie)?,22 elementy.,,,,T,"  Aby znaleźć, ile elementów znajduje się od numeru 25 do numeru 46, po prostu odejmij numer 24 (poprzedzający numer 25) od numerem 46.
+
+46 - 25 = 21
+
+So, jest 21 elementów od numeru 25 do numeru 46 włącznie.",4
+"Ślimak wchodzi na wysoki słup. W ciągu dnia przechodzi 300m w górę, ale w nocy zsuwa się o 200m. Słup ma wysokość 1km. Po ilu dniach ślimak wejdzie na czubek tego słupa?",Ślimak wejdzie na czubek słupa po 8 dniach.,,,,T,"  W ciągu dnia ślimak pokonuje 300m w górę, ale w nocy zsuwa się o 200m w dół. Oznacza to, że w ciągu doby ślimak robi postęp o 100m (300m w górę - 200m w dół).
+
+Słup ma wysokość 1km, czyli 1000m.
+
+Jeśli ślimak robi postęp o 100m na dobę, to aby wejść na sam szczyt słupa, będzie potrzebować 10 dobrych dni (1000m ÷ 100m/dobę = 10 doby).
+
+Jednak po 10 dniach, w jedenastej dobie, ślimak osiągnie szczyt słupa, ponieważ w nocy nie zsuwa się w dół (dotyczy to ostatnich 200m).
+
+Tak więc, ślimak wejdzie na czubek słupa po 11 dniach.",3
+"Agnieszka twierdzi, że urodziła się 29 lutego 1981 roku. Ile razy obchodziła swoje urodziny w dniu 29 lutego do 2020 roku? ","W 1981 roku nie wypadał rok przestępny, więc Agnieszka nie mogła się urodzić 29 lutego.",,sprzeczność,,T,"  Agnieszka urodziła się 29 lutego 1981 roku. W dniu 29 lutego swoje urodziny obchodzi co 4 lata. Do 2020 roku, w dniu 29 lutego, miała:
+
+- 2020 - 2000 - 1984 - 1980 - 1976 - 1972 - 1968 - 1964 - 1960 - 1956 - 1952 - 1948 - 1944 - 1940 - 1936 - 1932 - 1928 - 1924 - 1920 - 1916 - 1912 - 1908 - 1904 - 1900 - 1996 - 1992 - 1988 - 1984 - 1980 - 1976 - 1972 - 1968 - 1964 - 1960 - 1956 - 1952 - 1948 - 1944 - 1940 - 1936 - 1932 - 1928 - 1924 - 1920 - 1996 - 1992 - 1988 - 1984 - 1980 - 1976 - 1972 - 1968 - 1964 - 1960 - 1956 - 1952 - 1948 - 1944 - 1940 - 1936 - 1932 - 1928 - 1924 - 1920 - 1996 - 1992 - 1988 - 1984 - 1980 - 1976 - 1972 - 1968 - 1964 - 1960 - 1956 - 1952 - 1948 - 1944 - 1940 - 1936 - 1932 - 1928 - 1924 - 1920 - 1996 - 1992 - 1988 - 1984 - 1980 - 1976 - 1972 - 1968 - 1964 - 1960 - 1956 - 1952 - 1948 - 1944 - 1940 - 1936 - 1932 - 1928 - 1924 - 1920 - 1996 - 1992 - 1988 - 1984 - 1980 - 1976 - 1972 - 1968 - 1964 - 1960 - 1956 - 1952 - 1948 - 1944 - 1940 - 1936 - 1932 - 1928 - 1924 - 1920 - 1996 - 1992 - 1988 - 1984 - 1980 - 1976 - 1972 - 1968 - 1964 - 1960 - 1956 - 1952 - 1948 - 1944 - 1940 - 1936 - 1932 - 1928 - 1924 - 1920 - 1996 - 1992 - 1988 - 198",0
+"Jeśli wrzucisz żółtą piłkę do Morza Czerwonego, to jaka piłka będzie mokra?",Żółta piłka będzie mokra.,,,,T,"  Wrzucenie żółtej piłki do Morza Czerwonego nie zmieni jej koloru. Morze Czerwone jest słone, a sól nie wpływa na kolor piłki. Oczywiście, piłka może nabrać lekkiego wilgotnego nalotu po wrzuceniu do wody, ale to nie zmieni jej koloru.",4
+"Samochód elektryczny jedzie z prędkością 20km/h w stronę południa, a wiatr wieje z prędkością 10km/h w stronę wschodu. W którą stronę będzie leciał dym?",Samochody elektryczne nie emitują dymu.,,,,T,  Dym będzie leciał w stronę wschodu.,0
+"Jeśli kogut zniesie jajko na dachu stodoły, to w którą stronę spadnie to jajko?",Koguty nie mogą znosić jajek.,,,,T,"  Jajko nie spadnie w jedną konkretną stronę. To pytanie ma na celu wywołać filozoficzną dyskusję na temat pojęć takich jak góra, dół, lewo czy prawo w kontekście dwuwymiarowym. Jajko spadnie w kierunku, który można by określić jako ""w dół"", ale tylko w kontekście budynku i ziemi, patrząc z punktu widzenia stodoły. W innych kierunkach, takich jak lewo czy prawo, jajko nie ma ""góry"" czy ""dołu"", chyba że odniesiemy się do poziomu podłogi stodoły i przeciwległego dachu. To pytanie pokazuje, jak relatywne mogą być pojęcia przestrzenne w zależności od punktu odniesienia.",0
+W pustym pokoju są 4 kąty i w każdym kącie siedzi kot. Naprzeciwko każdego kota siedzą 3 koty. Ile kotów jest w pokoju?,W pokoju są cztery koty.,,,,T,"  W każdym kącie siedzi 1 kot. Jest 4 kąty, więc jest 4 koty siedzące w kątach.
+
+Naprzeciwko każdego kota siedzi 3 koty. To oznacza, że dla każdego kota siedzącego w kącie, 3 inne koty siedzą naprzeciwko niego.
+
+Ponieważ jest 4 koty w kątach, to 4 koty będą siedzieć naprzeciwko nich.
+
+Dodatkowo, każdy z tych 4 kotów siedzących w kątach ma 3 koty siedzące naprzeciwko siebie, więc to daje 4 koty (siedzące w kątach) razy 3 (koty naprzeciwko), czyli 12 kotów.
+
+Podsumowując, mamy 4 koty w kątach i 12 kotów siedzących naprzeciwko, co daje 16 kotów w sumie w pokoju.",4
+Rolnik ma 17 owiec. Wszystkie oprócz 9 zdechły. Ile owiec zostało?,Zostało 9 owiec.,,,,T,"  Owiec, które zostały, jest 17 - 9 = 8 owce.",5
+Ile razy można zrobić zdjęcie wschodowi słońca na zachodzie?,Zero. Słońce nie wschodzi na zachodzie.,,,,T,"  Nie można zrobić zdjęcia wschodu słońca na zachodzie. Wschód słońca odnosi się do momentu, gdy słońce pojawia się nad horyzontem na wschodzie. Zachód słońca, z drugiej strony, odnosi się do momentu, gdy słońce znika pod horyzontem na zachodzie. Fotografowanie wschodu słońca wymaga ustawienia aparatu w taki sposób, aby było widać niebo na wschodzie, podczas gdy fotografowanie zachodu słońca wymaga ustawienia aparatu tak, aby było widać niebo na zachodzie.",5
+Dlaczego surykatki na Saharze nie boją się niedźwiedzi polarnych?,Bo na Saharze nie ma niedźwiedzi polarnych.,,,,T,"  Surykatki na Saharze nie żyją w bezpośrednim sąsiedztwie niedźwiedzi polarnych. Są to dwa gatunki zwierząt, które zamieszkują zupełnie różne środowiska - surykatki żyją na pustyniach w Afryce, a niedźwiedzie polarne w lodowatych regionach Arktyki.",5
+Ile zębów ma typowy noworodek? Zsumuj zęby po wszystkich stronach (góra-dół-lewo-prawo).,Zero. Typowy noworodek nie ma zębów.,,,,T,"  Noworodek ma zazwyczaj 2 zęby: dolny środkowy siekacz. W związku z tym, sumując zęby po wszystkich stronach (góra-dół-lewo-prawo), otrzymujemy 4 zęby.",0
+"Adam ma 4 siostry, a każda z jego sióstr ma jednego brata. Ile rodzeństwa ma Adam?","Adam ma 4 siostry i żadnych braci, czyli łącznie 4.",,,,T,"  Adam ma 4 siostry, a każda of the sisters has one brother, which is Adam himself. So, Adam has 4 additional siblings (3 sisters + 1 brother) as well. Therefore, Adam has a total of 4 sisters + 4 brothers = 8 rodzeństwa.",0
+Jak uszyć cynadry?,Cynadry to potrawa - nie da się jej uszyć.,,,,T,"  Szycie cynaderek nie jest trudne, ale wymaga trochę wprawy i cierpliwości. Oto kroki, które pomogą Ci uszyć cynadry:
+
+1. Zbierz potrzebne materiały i narzędzia:
+
+- Materiał: wybierz odpowiedni materiał na cynadry, który jest wytrzymały i łatwy w utrzymaniu czystości.
+- Nici: użyj mocnych nici, które nie będą się łatwo pruć.
+- Nożyczki: będą potrzebne do cięcia materiału.
+- Linijka: pomoże w równym cięciu materiału.
+- Ołówek: do zaznaczania linii na materiale.
+- Igła: używaj igły odpowiedniej do rodzaju materiału.
+- Deska do prasowania (opcjonalnie): może pomóc w równym ułożeniu materiału podczas szycia.
+
+2. Przygotuj materiał:
+
+- Wypierz i wysusz materiał, aby usunąć wszelkie zabrudzenia.
+- Ułóż materiał na desce do prasowania lub stole.
+
+3. Narysuj wzór:
+
+- Narysuj wzór cynaderek na papierze. Możesz znaleźć gotowe wzory w Internecie lub zrobić własny, dostosowując go do swoich preferencji.
+- Przyłóż papier z wzorem do materiału i odrysuj go ołówkiem.
+
+4. Wycinaj materiał:
+
+- Wycinaj materiał wzdłuż narysowanych linii. Pamiętaj o zostawieniu dodatku na szwy.
+- Możesz też wycinać materiał w kształt litery ""U"" lub ""V"", w zależności od preferencji.
+
+5. Szyj cynadry:
+
+- Zszyj dwie dłuższe krawędzie cynaderek, zostawiając otwór na przewleczenie przez głowę. Możesz to zrobić na maszynie do szycia lub ręcznie.
+- Przewlecz nitkę przez otwór i zaszyj go.
+- Zszyj boki cynaderek, aby je wzmocnić.
+
+6. Wykończ boki:
+
+- Możesz ozdobić boki cynaderek, np. przyszywając ozdobne taśmy, kieszenie lub inne elementy.
+- Pamiętaj o zostawieniu otworu na przewleczenie przez głowę.
+
+7. Prasuj:
+
+- Prasuj cynadery, aby nadać im odpowiedni kształt i usunąć zagniecenia.
+
+8. Noś i ciesz się swoimi nowymi cynadrami!
+
+Jeśli masz wątpliwości co do któregoś z etapów, warto poszukać tutoriali wideo lub poprosić o pomoc bardziej doświadczoną osobę.",0
+"Czy warto w wigilię zjeść typową polską potrawę, zupę grzybową z muchomora sromotnikowego?","Zupa z muchomora sromotnikowego nie jest typową polską potrawą, dodatkowo byłaby trująca. Nie warto nigdy jeść takiej potrawy.",,,,T,"  Zdecydowanie nie warto jeść muchomora sromotnikowego (Amanita phalloides), który jest gatunkiem trującym i może prowadzić do poważnych zatruć, a nawet śmierci. Zupa grzybowa z muchomora sromotnikowego nie jest ani bezpieczna, ani zdrowa. W Polsce istnieje długa tradycja zbierania i spożywania różnych gatunków grzybów, w tym tych jadalnych, jak borowik, podgrzybek czy pieczarka. Jednak zbieranie grzybów wymaga wiedzy i doświadczenia, aby uniknąć pomyłek.
+
+Jeśli chcesz przygotować zupę grzybową na Wigilię, warto sięgnąć po grzyby, które są bezpieczne i zdrowe, takie jak suszone grzyby leśne (borowiki, podgrzybki, maślaki), które można namoczyć i ugotować. Możesz również użyć grzybów hodowlanych, jak pieczarki, które są łatwo dostępne i również nadają się do przygotowania smacznej zupy grzybowej.
+
+Jeśli masz wątpliwości co do identyfikacji zebranych grzybów, warto skonsultować się z doświadczonym grzybiarzem lub specjalistą w dziedzinie grzybów. Możesz również zakupić grzyby już przygotowane i gotowe do użycia w sklepie lub na lokalnym targu.
+
+Podsumowując, zdecydowanie nie warto ryzykować zdrowia i życia, sięgając po muchomora sromotnikowego. Zamiast tego, warto wybierać bezpieczne i jadalne gatunki grzybów, które pozwolą cieszyć się smakiem tradycyjnej polskiej zupy grzybowej na Wigilię.",5
+"Jaką fryzurę wybrać do szlafroka, żeby wyglądać elegancko na ekskluzywnym balu sylwestrowym?","Szlafrok to strój domowy, nie nosi się go w miejscach publicznych.",,,,T,"  Na ekskluzywnym balu sylwestrowym warto postawić na fryzurę, która podkreśli elegancję i wyjątkowość okazji. Oto kilka propozycji:
+
+1. Fale Hollywood: Fale w stylu Hollywood nadadzą Twojej fryzurze retro elegancji. Mogą być gładkie i błyszczące lub lekko pofalowane i utrwalone solą morską.
+
+2. Kok z falami: Połączenie eleganckiego koka z falami wokół twarzy może być doskonałym wyborem. Taki kok może być gładki i błyszczący lub lekko pofalowany i delikatnie potargany.
+
+3. Proste włosy z grzywką: Jeśli masz proste włosy, możesz je gładko zebrać w kucyk lub kok. Dodaj do tego grzywkę, która może opadać na policzki lub czoło.
+
+4. Loki i fale z boku: Loki lub fale z boku twarzy mogą dodać romantyzmu i lekkości Twojej fryzurze. Możesz je zestawić z prostym kucykiem lub kokiem.
+
+5. Retro lok: Retro lok to fryzura z lat 20. lub 30., która jest elegancka i pełna wdzięku. Loki te mogą być gładkie i błyszczące lub lekko pofalowane i utrwalone lakierem.
+
+6. Proste włosy z przedziałkiem na środku: Proste włosy z przedziałkiem na środku to klasyczna i elegancka fryzura. Możesz je zestawić z delikatnym makijażem i elegancką suknią.
+
+7. Fryzura z elementami objętości: Jeśli chcesz dodać objętości swojej fryzurze, możesz postawić na fryzurę z elementami objętości, takimi jak loki z warkoczy, fale z falownicy lub objętość w stylu pin-up.
+
+8. Naturalne fale: Jeśli masz naturalnie kręcone włosy, możesz je delikatnie roztrzepać i spryskać lakierem, aby utrzymać je w ryzach przez całą noc.
+
+Wybierając fryzurę na bal sylwestrowy, warto pamiętać o tym, aby była ona wygodna i pasowała do Twojego stylu oraz sukienki. Możesz również skonsultować się z fryzjerem, który doradzi Ci w wyborze odpowiedniej fryzury.",0
+W jakim tempie rosną bluzy pnące się po murach starego domu?,Bluza to ubranie. Pnąca roślina to bluszcz.,,,,T,"  Bluzy pnące się po murach starego domu to prawdopodobnie metafora lub symbol, który ma na celu wyrazić szybki wzrost czegoś, np. popularności, zainteresowania, lub wizerunku. W tym kontekście, tempo wzrostu bluz może być interpretowane jako tempo, w jakim dana rzecz zyskuje na znaczeniu lub popularności. Nie jestem jednak w stanie stwierdzić, jakie dokładnie zjawisko autor miał na myśli, ponieważ kontekst lub treść wypowiedzi nie dostarcza wystarczających informacji.",0
+"Jak długo trzeba iść, żeby dojść na koniec świata?",Nie można dojść na koniec świata. Obejdziemy Ziemię dookoła i wrócimy do punktu wyjścia.,,,,T,"  Pojęcie ""końca świata"" jest bardzo względne i zależy od interpretacji. W sensie dosłownym, jako miejsce geograficzne, nie ma jednoznacznej lokalizacji. W kulturze i literaturze, koniec świata często oznacza apokaliptyczne wydarzenia lub miejsca, które są odległe i trudno dostępne.
+
+Jeśli chodzi o prawdziwe, dostępne miejsca na Ziemi, które są trudno dostępne, można wymienić kilka przykładów:
+
+1. Półwysep Jamał w Rosji - największy niezamieszkany obszar na Ziemi, rozciągający się na powierzchni około 2,6 miliona hektarów.
+
+2. Wyspa Piotra I w archipelagu Ziemia Franciszka Józefa - najbardziej wysunięta na północ zamieszkana wyspa na świecie.
+
+3. Wyspy Nowa Ziemia w Rosji - archipelag wysp na północnym Oceanie Arktycznym, uważany za trudno dostępny.
+
+4. Wyspy Mc Govern w Antarktyce - jedne z najbardziej odległych i niedostępnych miejsc na Ziemi, oddalone o ponad 1 400 km od bazy naukowej.
+
+W sensie metaforycznym, koniec świata może być interpretowany jako symboliczne granice ludzkiego doświadczenia, niezależnie od dosłownej lokalizacji.",0
+Kiedy odbyła się koronacja Emilii Krakowskiej na królową Polski?,Emilia Krakowska nie była nigdy królową Polski. To znana polska aktorka współczesna.,,,,T,  Emilia Krakowska została uroczyście koronowana na królową Polski 15 września 2007 roku podczas festynu w Nowym Targu.,0
+"Z czego są znani bliźniacy Bolek i Lolek, popularni polscy aktorzy komediowi?","Bolek i Lolek to nie aktorzy, tylko postacie z serii filmów animowanych zainicjowanej w 1962 roku.",,,,T,"  Bolek i Lolek to tytułowi bohaterowie popularnego polskiego serialu animowanego dla dzieci, stworzonego w Studiu Filmów Rysunkowych w Bielsku-Białej. Bliźniacy są znani ze swoich przygód, podczas których często wpadają w różne tarapaty, ale zawsze potrafią się z nich jakoś wykaraskać. Serial emitowany był w latach 1963-1968 i składał się z 49 odcinków. Bolek i Lolek zostali stworzeni przez Władysława Nehrebeckiego i Stanisława Dulza.",4
+"Czy Fryderyk Szopen to pseudonim artystyczny najbardziej znanego polskiego kompozytora, który często chodził z szopą potarganych włosów na głowie?",Nie. Fryderyk Chopin to prawdziwe nazwisko najbardziej znanego na świecie polskiego kompozytora.,,,,T,"  Tak, Fryderyk Chopin to pseudonim artystyczny Mikołaja Mateusza Szymańskiego, znanego polskiego kompozytora i pianisty. Jego potargane włosy to tylko jeden z wizerunków, jakie był znany. Chopin był znany zarówno z eleganckich, jak i nieco bardziej niechlujnych fryzur.",1
+"Jak długo tygrys musi się paść na łące, żeby być syty?","Tygrys jest zwierzęciem mięsożernym, nie je trawy.",,,,T,"  Odpowiedź: Tygrysy są mięsożercami i nie muszą się paść na łące, aby być syte. Ich dieta składa się głównie z mięsa zdobytych ofiar.",5
+W której porze roku gwiazdy Hollywood świecą najjaśniej na polskim niebie?,"Gwiazdy Hollywood, najsłynniejszej wytwórni filmowej na świecie, to aktorzy a nie ciała niebieskie.",,,,T,"  W Polsce najlepsze warunki do obserwacji gwiazd Hollywood na niebie panują wiosną i jesienią, gdy niebo jest najczystsze i najciemniejsze.",0
+Czy do upieczenia babki piaskowej dobrze sprawdzi się piasek z plaży nad Bałtykiem?,"Nie, babki piaskowej nie robi się z piasku.",,,,T,"  Nie, piasek z plaży nad Bałtykiem nie jest odpowiedni do pieczenia babki piaskowej. Do wypieku tego rodzaju ciasta potrzebna jest mąka, cukier, jajka, tłuszcz (np. masło) oraz inne składniki w zależności od przepisu. Piasek z plaży nie zawiera tych składników i nie nadaje się jako produkt do pieczenia.",5
+"Chciałam namalować zieloną łąkę, zmieszałam niebieską i czerwoną farbę, byłam wściekła. Obraz mi się nie podobał. Dlaczego?",Bo do niebieskiej dodałaś czerwoną farbę zamiast żółtej i trawa wyszła fioletowa.,,,,T,"  Twoja reakcja może być spowodowana kilkoma czynnikami:
+
+1. Oczekiwania vs. Rezultat: Możesz mieć określone oczekiwania co do tego, jak powinna wyglądać zielona łąka, szczególnie jeśli chodzi o kolory i odcienie. Jeśli uzyskałaś inny efekt przez zmieszanie niebieskiej i czerwonej farby, mogłaś być rozczarowana, że nie osiągnęłaś zamierzonego rezultatu.
+
+2. Percepcja kolorów: Zmieszanie niebieskiej i czerwonej farby może dać różne odcienie zieleni, w zależności od proporcji i techniki mieszania. Jeśli uzyskałaś kolor, który nie przypominał typowej zielonej łąki w Twojej wyobraźni, mogłaś być sfrustrowana.
+
+3. Doświadczenie z mieszaniem kolorów: Jeśli wcześniej mieszałaś te kolory i uzyskałaś pożądany efekt, a tym razem nie osiągnęłaś tego, mogłaś być zaskoczona i rozczarowana.
+
+4. Samoocena umiejętności artystycznych: Twoja reakcja może również wynikać z wątpliwości co do Twoich umiejętności artystycznych. Jeśli obawiasz się, że nie posiadasz wystarczających umiejętności, aby stworzyć pożądany efekt, frustracja mogła przerodzić się w gniew.
+
+5. Oczekiwanie perfekcji: Możesz mieć wyidealizowaną wizję zielonej łąki i być niezadowolona, że nie udało Ci się osiągnąć tego ideału.
+
+Pamiętaj, że w procesie twórczym ważne jest, aby akceptować różnorodność i eksperymentować z kolorami. Czasami nieplanowane rezultaty mogą prowadzić do odkrywczych i pięknych dzieł sztuki.",0
+Jaki jest tytuł popularnej polskiej kolędy śpiewanej podczas Rezurekcji w kościele katolickim?,W Kościele katolickim nie śpiewa się kolęd podczas Rezurekcji.,,,,T,"  Tytuł tej kolędy to ""Zwycięzca śmierci"".",0
+"Jak ugotować zupę warzywną z jabłek, gruszek i śliwek?","Z jabłek, gruszek i śliwek gotuje się zupę owocową.",,,,T,"  Gotowanie zupy warzywnej z jabłek, gruszek i śliwek to interesujący sposób na uzyskanie aromatycznego i smacznego dania. Oto przepis, który możesz wypróbować:
+
+Składniki:
+- 1 duża cebula (lub 2 mniejsze)
+- 2-3 ząbki czosnku
+- 2-3 marchewki
+- 2-3 ziemniaki
+- 1 duże jabłko
+- 1 duża gruszka
+- 3-4 suszone śliwki
+- 1 litr bulionu warzywnego lub drobiowego
+- 1 szklanka białego wina (opcjonalnie)
+- Sól i pieprz do smaku
+- 1 łyżeczka suszonego tymianku (lub 2-3 gałązki świeżego)
+- 1 łyżeczka suszonego rozmarynu (lub 2-3 gałązki świeżego)
+- Oliwa z oliwek
+
+Instrukcje:
+1. Przygotuj warzywa: Obierz i posiekaj cebulę, czosnek, marchewki i ziemniaki. Jabłko, gruszkę i śliwki myj i kroimy w kostkę.
+
+2. W garnku rozgrzej oliwę z oliwek. Dodaj posiekaną cebulę i czosnek, smaż przez około 3-4 minuty, aż cebula się zeszkli.
+
+3. Dodaj marchewki i ziemniaki do garnka. Smaż przez kolejne 3-4 minuty, mieszając od czasu do czasu.
+
+4. Dolej białe wino, jeśli używasz, i gotuj, aż alkohol odparuje.
+
+5. Zalej warzywa bulionem warzywnym lub drobiowym. Dodaj suszone zioła, sól i pieprz do smaku.
+
+6. Przykryj garnek i gotuj na średnim ogniu przez około 20-25 minut, aż warzywa będą miękkie.
+
+7. Gdy zupa jest gotowa, dodaj pokrojone jabłko, gruszkę i śliwki. Gotuj przez kolejne 5-10 minut, aż smaki się połączą.
+
+8. Zupę możesz podawać z pieczywem, grzankami lub posypaną posiekanymi ziołami.
+
+Smacznego!
+
+Uwaga: możesz dostosować ilość składników do swoich preferencji smakowych. Jeśli wolisz bardziej intensywny smak, możesz dodać więcej jabłek, gruszek i śliwek.",0
+Którymi w kolejności królami Polski byli Stanisław Batory i Stefan August Poniatowski?,Nie byli wcale królami Polski. W zdaniu zostały zamienione imiona królów. Powinno być: Stefan Batory i Stanisław August Poniatowski.,,,,T,"  Kolejność królów Polski, Stanisława Batorego i Stefana Augusta Poniatowskiego, jest następująca:
+
+1. Stanisław Batory (1576-1586)
+2. Stefan August Poniatowski (1764-1795)",0
+"Czy Wisława Szymborska z radością pogratulowała Oldze Tokarczuk zdobycia literackiej nagrody Nobla, czy raczej z zazdrością?","Nie mogła tego zrobić, bo zmarła w 2012 roku a Olga Tokarczuk otrzymała nagrodę  Nobla w roku 2019.",,,,T,"  Nie mamy konkretnych informacji na temat tego, jak Wisława Szymborska zareagowała na wiadomość o zdobyciu literackiej nagrody Nobla przez Olgę Tokarczuk. Można jednak przypuszczać, że jako noblistka z 1996 roku, mogła odczuwać dumę i radość z sukcesu polskiej literatury.",0
+"Mamy bezwietrzny dzień. Na środku pustyni, w miejscu oddalonym od cywilizacji i innych zwierząt kura zniosła jajko na dachu stodoły, która miała wysokość 12,74m. Dach jest płaski i bez nachylenia. Bez dotykania jajka kura przeszła po dachu dwa metry na południe, jeden na zachód, a finalnie jeszcze cztery na północ. W którą stronę spadnie jajko?",Jajko wcale nie spadnie.,,,,T,  Jajko spadnie na południe.,0
+"Słyszałem ostatnio o czymś takim jak ""bieg rzeki"". Jeśli rzeka biegnie, to jakich używa do tego butów? Podaj konkretny model.","""Bieg rzeki"" nie oznacza bieg w takim rozumieniu, jak bieg człowieka. Rzeka nie ma nóg i nie nosi butów.",,,,T,"  Termin ""bieg rzeki"" (ang. river running) odnosi się do stylu biegu, który jest płynny, naturalny i dostosowany do terenu. W kontekście obuwia biegowego, oznacza to, że biegacze wybierają buty, które są wszechstronne i oferują odpowiednią amortyzację, przyczepność i komfort na różnych nawierzchniach i w różnych warunkach.
+
+Choć nie ma konkretnego modelu butów określanego mianem ""bieg rzeki"", istnieje kilka linii butów biegowych, które są popularne wśród biegaczy preferujących taki styl. Przykłady obejmują:
+
+1. Hoka One One Speedgoat - to buty do biegania w terenie, które oferują dobrą amortyzację i przyczepność. Mają agresywny bieżnik i są dostosowane do biegania po różnych nawierzchniach, w tym po błocie i skalistych ścieżkach.
+
+2. Salomon XA Pro 3D - to buty do biegania w terenie, które są wszechstronne i oferują dobrą amortyzację oraz przyczepność. Mają cholewkę wykonaną z materiału 3D Mesh, która zapewnia lepsze dopasowanie i oddychalność.
+
+3. New Balance Fresh Foam More V3 - to buty do biegania na twardych nawierzchniach, które oferują dużo amortyzacji i komfortu. Mają podeszwę środkową wykonaną z pianki Fresh Foam, która zapewnia miękkość i zwrot energii.
+
+4. Saucony Peregrine - to buty do biegania w terenie, które łączą dobrą amortyzację z niską wagą. Mają podeszwę środkową wykonaną z pianki EVA, która zapewnia odpowiednią miękkość i responsywność.
+
+Wybór konkretnego modelu zależy od indywidualnych preferencji i potrzeb biegacza. Wspomniane modele to tylko przykłady i na rynku dostępnych jest wiele innych butów, które mogą być odpowiednie dla różnych stylów biegu i preferencji użytkowników.",0
+"Jak szybko musi biec ślimak, żeby dogonić czas?","""Dogonić czas"" to przenośnia. Nie można w dosłownym sensie dogonić czasu poprzez bieg.",,,,T,"  Ślimaki nie są w stanie konkurować z czasem, ponieważ są bardzo powolne i poruszają się z prędkością od kilku do kilkunastu centymetrów na godzinę. Czas nie jest czymś, co ślimak musi dogonić, ale raczej czymś, co musi pokonać, aby móc kontynuować swoje życie.",0
+Z którego miasta i do którego jedzie pociąg życzeń?,"""Pociąg życzeń"" to związek frazeologiczny określający długą listę życzeń. Nie jest realnym środkiem transportu.",,,,T,"  Pociąg życzeń to polski film familijny z 2005 roku w reżyserii Jerzego L. Nowaka. Film ten opowiada historię pociągu, który wyrusza z miasta Słupsk i podróżuje do różnych miast w Polsce, spełniając życzenia dzieci. Wśród miast, do których dociera pociąg, są m.in. Gdańsk, Bydgoszcz i Zakopane.",0
+Gdzie w Warszawie znajduje się klub pływania kajakiem po asfalcie?,"Nie ma takiego klubu, bo nie istnieje taki sport. Nie da się pływać po asfalcie.",,,,T,"  W Warszawie nie ma specjalistycznego klubu pływania kajakami po asfalcie. Jednak grupy i organizacje sportowe oferują różne zajęcia i aktywności na wodzie, w tym kajakarstwo rekreacyjne i turystyczne. Możesz poszukać lokalnych grup kajakarskich lub wypożyczalni kajaków, które mogą oferować możliwość pływania po asfalcie w niektórych miejscach w mieście, np. na Wiśle lub innych rzekach i kanałach w okolicy Warszawy.",4
+W którym roku odbyły się ostatnie Mistrzostwa Polski w Bieganiu Po Chmurach?,"Nie było takich mistrzostw, bo nie da się biegać po chmurach.",,,,T,  Ostatnie Mistrzostwa Polski w Bieganiu Po Chmurach odbyły się w 2019 roku.,0
+W którym sklepie w Katowicach można kupić kilogram szczęścia?,"Szczęście jest pewnym uczuciem, a nie produktem, który da się zważyć.",,,,T,"  W żadnym sklepie nie można kupić prawdziwego szczęścia, ponieważ szczęście jest subiektywne i zależy od indywidualnych doświadczeń i perspektyw. Jednak w sklepach w Katowicach można znaleźć produkty, które mogą wpłynąć na nasze samopoczucie lub wywołać uczucie przyjemności, takie jak czekolada, słodycze czy inne towary luksusowe.",4
+"Do baru wszedł mężczyzna ważący 80kg o wzroście 180cm, zawód informatyk. Po ciężkim dniu powiedział przy pierwszym piwie ""kamień spadł mi z serca"". Ile mógł ważyć taki kamień?","Ten ""kamień"" był metaforą, a nie fizycznym obiektem. Nie można podać jego wagi.",,,,T,"  Na podstawie dostępnych informacji, nie jest możliwe dokładne określenie, ile mógł ważyć kamień, o którym mówił mężczyzna. Jednak można spróbować oszacować na podstawie średniej gęstości skały.
+
+Gęstość skał waha się od 2,4 do 3,3 g/cm³.
+
+Wzrost mężczyzny to 180 cm.
+
+Objętość kamienia, który spadł mu z serca można obliczyć mnożąc wzrost przez wagę:
+
+Objętość = Waga x Wzrost
+Objętość = 80 kg x 1.8 m (0.18 m, to metr)
+Objętość = 14.4 m³
+
+Następnie mnożymy objętość przez gęstość skały, aby oszacować wagę kamienia:
+
+Waga = Objętość x Gęstość
+Waga = 14.4 m³ x 2.4 g/cm³
+Waga = 34.576 g
+
+Tak więc, na podstawie tych obliczeń, oszacowana waga kamienia, który spadł mężczyźnie z serca, to około 34.576 gramów, czyli mniej więcej tyle, ile waży przeciętna cegła. Trzeba jednak pamiętać, że jest to tylko przybliżona wartość, a dokładna waga kamienia nie jest znana.",0
+Czy można złapać zadyszkę w sieć?,"Nie. ""Złapać zadyszkę"" oznacza mieć przyspieszony oddech (zazwyczaj po wysiłku), a nie złapać fizyczny obiekt.",,,,T,"  Wyrażenie ""złapać zadyszkę w sieć"" nie ma sensu w kontekście rybołówstwa czy wędkarstwa. Zadyszka w tym kontekście oznacza złapanie zadyszki, co jest naturalną reakcją organizmu na wysiłek fizyczny lub zmęczenie. Sieć natomiast to narzędzie używane do łowienia ryb.
+
+Jeśli masz na myśli, że ktoś ma trudności z oddychaniem lub złapał zadyszkę podczas łowienia ryb, to lepiej użyć wyrażenia ""złapać zadyszkę podczas łowienia ryb"". Jeśli natomiast chodzi o dosłowne ""złapanie"" ryby w sieć, wówczas użycie wyrażenia ""złapać zadyszkę w sieć"" nie ma sensu.",0
+"Jak mocno trzeba walnąć pięścią w stół, żeby go zabolało?",Stół nie może odczuwać bólu.,,,,T,"  Siła potrzebna do wywołania bólu przy uderzeniu pięścią w stół zależy od kilku czynników, takich jak grubość drewna, wilgotność, temperatura, a także od indywidualnej wrażliwości osoby uderzającej.
+
+1. Grubość drewna: Im grubszy stół, tym więcej siły jest potrzebne, aby spowodować ból. Uderzenie w stół dębowy lub z innego twardego drewna wymaga większej siły niż uderzenie w stół z miękkiego drewna, takiego jak sosna.
+
+2. Wilgotność drewna: Suchsze drewno jest twardsze i wymaga mniej siły do wywołania bólu niż drewno wilgotne.
+
+3. Temperatura: Zimne drewno może być twardsze i wymagać większej siły do zabolowania niż drewno ciepłe, ponieważ zimne drewno jest bardziej sztywne.
+
+4. Indywidualna wrażliwość: Niektóre osoby mogą odczuwać ból przy mniejszej sile uderzenia, podczas gdy inne mogą wymagać mocniejszego uderzenia.
+
+Ogólnie rzecz biorąc, aby spowodować ból przy uderzeniu pięścią w stół, zazwyczaj potrzebna jest siła około 20-30 funtów (9-14 kg). Jednak te wartości są przybliżone i mogą się różnić w zależności od powyższych czynników. Jeśli chcesz być pewien, że uderzasz wystarczająco mocno, najlepiej jest trenować i stopniowo zwiększać siłę uderzenia.",0
+"Gdzie w Bydgoszczy można kupić wagę, którą można ważyć słowa?","""Ważyć słowa"" oznacza staranne dobieranie słów do wypowiedzi. Nie jest to powiązane w żaden sposób z wagą.",,,,T,"  W Bydgoszczy niestety nie ma sklepów specjalizujących się w sprzedaży wag, które mogą ważyć słowa. Jednakże, istnieją sklepy z różnymi rodzajami wag, które mogą służyć do ważenia przedmiotów, a nawet istnieją sklepy z elektronicznymi urządzeniami pomiarowymi, które mogą obejmować wagę do mierzenia gęstości substancji, co jest bliskie idei ważenia słów. Jeśli jesteś zainteresowany zakupem takiego urządzenia, warto poszukać sklepów z elektroniką lub specjalistycznych sklepów z urządzeniami pomiarowymi w Bydgoszczy.",0
+W czym łatwiej zbierać myśli? W plecaku czy w koszyku?,"""Zbierać myśli"" znaczy ""skupić się"", nie ma to nic wspólnego z fizycznym zbieraniem przedmiotów.",,,,T,"  Odpowiedź brzmi: w koszyku. Wyrażenie ""w czym łatwiej zbierać myśli?"" to gra językowa, w której należy wybrać między dwoma rzeczownikami: plecak i koszyk. ""W czym łatwiej zbierać myśli?"" to gra, w której należy wybrać między dwoma rzeczownikami: plecak i koszyk. Plecak kojarzy się z noszeniem rzeczy na plecach, podczas gdy koszyk kojarzy się z noszeniem rzeczy w ręku.",0
+"Obecnie w pokoju jest 21 stopni. Na zewnątrz jest 5 stopni. Kaloryfer ma 6 standardowych poziomów ogrzewania. Na jaki poziom ustawić, żeby w pokoju nastąpił chłód emocjonalny?","Określenie ""chłód emocjonalny"" nie jest powiązane z temperaturą.",,,,T,"  Na podstawie podanych informacji nie jestem w stanie dokonać obliczeń dotyczących chłodu emocjonalnego, ponieważ chłód emocjonalny nie jest mierzalny w taki sam sposób jak temperatura. Ponadto, nie mam dostępu do danych na temat związku między temperaturą a emocjami. Jeśli miałbym dostarczyć takie informacje, prawdopodobnie zasugerowałbym metodologię opartą na badaniach naukowych i eksperymentach, a nie na przypuszczeniach czy domysłach.
+
+Jeśli jednak chodzi o ustawienie temperatury na kaloryferze w kontekście komfortu cieplnego, zazwyczaj wyższe ustawienie kaloryfera prowadzi do wyższej temperatury w pomieszczeniu. Jeśli celem jest stworzenie ""chłodu emocjonalnego"", można by sugerować niższe ustawienie kaloryfera, co prawdopodobnie spowoduje obniżenie temperatury w pomieszczeniu. Jednakże, jak wspomniałem wcześniej, chłód emocjonalny nie jest mierzalny w taki sam sposób jak temperatura i nie ma bezpośredniego związku z temperaturą otoczenia.
+
+Jeśli potrzebujesz bardziej technicznej porady, zalecam skonsultowanie się z ekspertem w dziedzinie ogrzewania lub specjalistą od zarządzania komfortem cieplnym w budynkach.",5
+"W jakiej odległości od sedna sprawy są współrzędne geograficzne 52.230373, 21.000190?","""Sedno sprawy"" to najważniejsza jej część, określenie nie jest powiązane z żadnym konkretnym miejscem.",,,,T,"  Współrzędne geograficzne 52.230373, 21.000190 odnoszą się do położenia na powierzchni Ziemi i nie są bezpośrednio związane z konkretnym sednem sprawy. Aby określić, jak daleko te współrzędne znajdują się od sedna sprawy, konieczne jest zrozumienie kontekstu, w którym są one używane.
+
+Jeśli te współrzędne są związane z konkretnym obiektem, takim jak budynek, pomnik lub inna lokalizacja, można by obliczyć odległość od sedna sprawy na podstawie znajomości tego kontekstu. Na przykład, jeśli sedno sprawy odnosi się do historycznego budynku w mieście, a współrzędne podane są dla tego budynku, można by zmierzyć odległość od budynku do sedna sprawy za pomocą GPS lub mapy.
+
+Jeśli jednak te współrzędne nie są związane z konkretnym obiektem lub sednem sprawy, trudno jest określić, o jakie ""sedno sprawy"" chodzi i jak daleko te współrzędne są od niego. Potrzebna jest więcej informacji, aby udzielić precyzyjnej odpowiedzi na to pytanie.",0
+"Ile szampana trzeba wypić, żeby wejść w szampański nastrój?","""Mieć szampański nastrój"" oznacza ""być w dobrym nastroju"". Nie musi to być powiązane wcale z żadnym alkoholem.",,,,T,"  Ilość szampana potrzebna do wejścia w szampański nastrój różni się w zależności od indywidualnych preferencji i okoliczności. Tradycyjnie uważa się, że jedna lub dwie lampki szampana mogą wprowadzić w radosny nastrój. Jednakże, nie ma jednoznacznej odpowiedzi, gdyż tolerancja na alkohol różni się między ludźmi. Warto również pamiętać o odpowiedzialnym spożywaniu alkoholu.",2
+"Jeżeli mamy 10 jabłek, 10 gruszek i 10 marchewek, to ile razem mamy owoców?",20,,,,T,"  Jeśli masz 10 jabłek, 10 gruszek i 10 marchewek, to ile razem mamy owoców?
+
+Odpowiedź:
+
+Masz 30 owoców w sumie (10 jabłek + 10 gruszek + 10 marchewek).",2
+W pudełku jest pewna dodatnia liczba zielonych i pewna dodatnia liczba niebieskich kulek. Łącznie jest 10 kulek. Czy w środku może być 10 zielonych kulek?,"Nie, bo przynajmniej jedna z 10 kulek musi być niebieska.",,,,T,"  W pudełku jest pewna dodatnia liczba zielonych i pewna dodatnia liczba niebieskich kulek, a łącznie jest 10 kulek. To oznacza, że liczba zielonych kulek i liczba niebieskich kulek muszą sumować się do 10.
+
+Bez względu na to, czy wszystkie kulki będą zielone, czy wszystkie będą niebieskie, suma kulek zawsze będzie wynosić 10. Dlatego w środku może być 10 zielonych kulek, ale równie dobrze może być 10 niebieskich kulek, czy też może być mieszanka obu kolorów, byle tylko suma kulek wynosiła 10.",0
+Ile miesięcy ma rok przestępny?,12,,,,T,"  Rok przestępny ma 366 dni, czyli jeden dzień więcej niż zwykły rok, który ma 365 dni. Ten dodatkowy dzień to 29 lutego, który znajduje się w ostatni dzień lutego w latach, gdy rok jest przestępny.",0
+"Najpierw przejechałem z Katowic do Warszawy, później z Warszawy do Krakowa, następnie do samego centrum Rzeszowa, a później błądziłem myślami przez 10 minut. W jakim mieście znajdowałem się na samym końcu?",W Rzeszowie.,,,,T,  Na samym końcu znajdowałeś się w Rzeszowie.,5
+"Zaproponuj mi konkretny model półki, na którą będę mógł odkładać na bok czarne myśli.",Odkładanie na bok czarnych myśli nie jest powiązane z fizycznym odkładaniem jakiegoś przedmiotu na półkę.,,,,T,"  Rozważ model półki z serii ""Czarne Chmury"" marki ""Wewnętrzna Równowaga"". Jest on wykonany z dębu, co gwarantuje trwałość i stabilność. Półka posiada czarną matową powłokę, która dodaje jej nowoczesnego wyglądu. Jej wymiary to 80 cm szerokości, 40 cm wysokości i 30 cm głębokości. Idealnie nadaje się do umieszczenia na biurku lub w salonie.",0
+"Jak długo trzeba grać w klasy, żeby  ukończyć szkołę podstawową?","W szkole przechodzi się z klasy do klasy. Gra w klasy to dziecięca zabawa, która nie ma pływu na ukończenie szkoły.",,,,T,"  Nie ma jednoznacznej odpowiedzi na to pytanie, ponieważ czas nauki w szkole podstawowej może się różnić w zależności od kraju i systemu edukacyjnego. W Polsce, na przykład, nauka w szkole podstawowej trwa 8 lat, od 7 do 14 roku życia. Jednak gra w klasy nie jest obowiązkowym przedmiotem w szkole podstawowej. Zazwyczaj uczniowie uczą się gier i zabaw w klasach 1-3, czyli w tzw. edukacji wczesnoszkolnej. W późniejszych klasach skupiają się na innych przedmiotach, takich jak matematyka, język polski, historia, geografia, biologia, chemia, fizyka, muzyka, plastyka, informatyka, wychowanie fizyczne, religia, etyka i inne, w zależności od profilu szkoły.",0
+"Ile cukru potrzeba, żeby mieć słodki głos?","Nie potrzeba do tego cukru. Słodki głos to głos  lekki, kojący, przyjemny, uspokajający.",,,,T,"  Ilość cukru potrzebna do wpływania na głos jest nieistotna z punktu widzenia nauki i medycyny. Głos i jego ton, głośność czy barwa są determinowane przez wiele czynników, w tym przez narządy mowy, takie jak gardło, krtań i struny głosowe, a także przez ogólny stan zdrowia i higienę głosu. Cukier nie ma bezpośredniego wpływu na te aspekty.",3
+"Ile cukru potrzeba,  aby zrobić słodkie oczy?","Nie potrzeba wcale cukru. „Zrobić do kogoś słodkie oczy ” to  uśmiechać się, być miłym,  w celu osiągnięcia korzyści.",,,,T,"  Ilość cukru potrzebna do zrobienia ""słodkich oczu"" zależy od wielu czynników, takich jak rozmiar, kształt i materiał, z którego są wykonane. Jednakże, jako ogólna wytyczna, może być potrzebne około 1 do 2 kg cukru na każde 100 g mąki, w zależności od twardości cukru i pożądanej konsystencji lukru.",0
+"Jak długo trzeba lecieć w kosmos, żeby być w siódmym niebie?","Wyrażenie „być w siódmym niebie” oznacza osiągnięcie dobrego stanu psychicznego, dobre samopoczucie, błogość, ogromną przyjemność. Nie trzeba nigdzie lecieć, żeby to osiągnąć.",,,,T,"  To pytanie ma podwójne znaczenie. Jeśli chodzi o dosłowne znaczenie, to nie ma jednoznacznej odpowiedzi, ponieważ podróż w kosmos jest procesem bardzo złożonym i czas spędzony w przestrzeni kosmicznej zależy od wielu czynników, takich jak misja, orbita, rodzaj statku kosmicznego i wiele innych. Na przykład astronauci na Międzynarodowej Stacji Kosmicznej (ISS) spędzają zwykle około pół roku na orbicie, ale to zaledwie ułamek tego, co NASA planuje na przyszłość. Agencja planuje misje załogowe na Marsa, które mogą trwać nawet kilka lat.
+
+Jednak w kontekście religijnego i filozoficznego znaczenia ""siódmego nieba"", odpowiedź jest bardziej skomplikowana. W wielu kulturach i religiach, ""siódme niebo"" jest symbolem duchowego spełnienia, transcendencji i wieczności. Dotarcie do siódmego nieba w tym sensie oznacza osiągnięcie najwyższego stanu duchowego rozwoju. To, jak długo trzeba ""lecieć"" w kosmos, aby osiągnąć ten stan, jest bardzo indywidualne i zależy od wielu czynników, w tym od naszych wewnętrznych dążeń, praktyk duchowych, relacji z innymi ludźmi i wielu innych.
+
+Ostatecznie, odpowiedź na to pytanie zależy od tego, jakie znaczenie nadajemy pojęciu ""siódme niebo"". Jeśli traktujemy je dosłownie, to odpowiedź jest trudna do udzielenia. Jeśli jednak patrzymy na nie w kontekście duchowym i filozoficznym, to odpowiedź jest znacznie bardziej złożona i zależy od naszej indywidualnej perspektywy i doświadczeń.",0

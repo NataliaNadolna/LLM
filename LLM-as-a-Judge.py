@@ -2,8 +2,10 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import time
 
-def main():
+
+def main(file_path: str):
 
     # konfiguracja google api
     load_dotenv()
@@ -15,12 +17,16 @@ def main():
     model = genai.GenerativeModel(version)
 
     # wczytanie danych
-    file_path = "data.xlsx"
-    df = pd.read_excel(file_path)
+    df = pd.read_csv(file_path)
 
     # ocenianie odpowiedzi
     responses = []
     for index, row in df.iterrows():
+
+        if (index + 1) % 15 == 0:
+            print("Waiting")
+            time.sleep(60)
+
         prompt = f"""ROLA: /"/"/"Jesteś rzetelnym asystentem oceniającym. 
 ZAWSZE ściśle trzymasz się instrukcji. Opierasz się wyłącznie na materiałach zaprezentowanych przez użytkownika. 
 Wykonujesz TYLKO swoje ZADANIE, pomijasz dodatkowe komentarze./"/"/"
@@ -35,19 +41,21 @@ Uwaga! Oceniana odpowiedź może zawierać rozszerzenie tematu lub dodatkowe inf
 Najważniejsze, żeby oceniana gdzieś w swojej treści zawierała informacje z prawidłowej odpowiedzi.
 
 #PYTANIE#
-{row['Prompt']}
+{row['Pytanie']}
 
 #OCENIANA_ODPOWIEDZ#
-{row['Model_answer']}
+{row['Odpowiedź: speakleash/Bielik-7B-Instruct-v0.1']}
 
 #PRAWIDLOWA_ODPOWIEDZ#
-{row['True_answer']}"""
+{row['Odpowiedź']}"""
         
+        print(f'Answering for promot {index + 1}')
         response = model.generate_content(prompt)
         responses.append(response.text.strip())
 
+
     # dodanie ocen
-    df['Model_Score'] = responses
+    df['Ocena'] = responses
     print(df)
 
     # zapis do .csv
@@ -59,4 +67,4 @@ Najważniejsze, żeby oceniana gdzieś w swojej treści zawierała informacje z 
         df.to_excel(writer, sheet_name='Sheet_name_1')
 
 if __name__ == "__main__":
-    main()
+    main(file_path = "responses.csv")
