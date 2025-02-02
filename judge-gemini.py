@@ -5,7 +5,7 @@ import pandas as pd
 import time
 
 
-def main(file_path: str):
+def main(input_path, model_rated, output_path):
 
     # konfiguracja google api
     load_dotenv()
@@ -17,7 +17,7 @@ def main(file_path: str):
     model = genai.GenerativeModel(version)
 
     # wczytanie danych
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(input_path)
 
     # ocenianie odpowiedzi
     responses = []
@@ -41,13 +41,13 @@ Uwaga! Oceniana odpowiedź może zawierać rozszerzenie tematu lub dodatkowe inf
 Najważniejsze, żeby oceniana gdzieś w swojej treści zawierała informacje z prawidłowej odpowiedzi.
 
 #PYTANIE#
-{row['Pytanie']}
+{row['question']}
 
 #OCENIANA_ODPOWIEDZ#
-{row['Odpowiedź: speakleash/Bielik-7B-Instruct-v0.1']}
+{row[f'generated_answer_{model_rated}']}
 
 #PRAWIDLOWA_ODPOWIEDZ#
-{row['Odpowiedź']}"""
+{row['answer']}"""
         
         print(f'Answering for promot {index + 1}')
         response = model.generate_content(prompt)
@@ -55,16 +55,11 @@ Najważniejsze, żeby oceniana gdzieś w swojej treści zawierała informacje z 
 
 
     # dodanie ocen
-    df['Ocena'] = responses
+    df['Score'] = responses
     print(df)
 
     # zapis do .csv
-    df.to_csv('results.csv', index=False)
-
-    # zapis do .xlsx
-    df2 = df.copy()
-    with pd.ExcelWriter('results.xlsx') as writer:
-        df.to_excel(writer, sheet_name='Sheet_name_1')
+    df.to_csv(output_path, index=False)
 
 if __name__ == "__main__":
-    main(file_path = "responses.csv")
+    main('responses.csv', 'Bielik-7B-Instruct-v0.1', 'results.csv')

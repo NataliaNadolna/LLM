@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 
-def prepare_batch_file(input_path, model_name, output_dir="batch_requests"):
+def main(input_path, model_judge, model_rated, output_dir):
     """Tworzy pliki JSON do batch API OpenAI."""
 
     # Wczytuje dane z csv do pandas dataframe
@@ -18,15 +18,15 @@ def prepare_batch_file(input_path, model_name, output_dir="batch_requests"):
     output_path.mkdir(exist_ok=True)
 
     # Zapisuje do pliku
-    filename = os.path.join(output_dir, f"{model_name}.jsonl")
+    filename = os.path.join(output_dir, f"{model_judge}.jsonl")
     with open(filename, 'w', encoding='utf-8') as f:
         for index, row in df.iterrows():
             data = {
-                "custom_id": f"{model_name}_{index}",  # Indeks wiersza jako DF_ID
+                "custom_id": f"{model_rated}_{index}",
                 "method": "POST",
                 "url": "/v1/chat/completions",
                 "body": {
-                    "model": model_name,
+                    "model": model_judge,
                     "messages": {"role": "user", "content": f"""ROLA: /"/"/"Jesteś rzetelnym asystentem oceniającym. 
 ZAWSZE ściśle trzymasz się instrukcji. Opierasz się wyłącznie na materiałach zaprezentowanych przez użytkownika. 
 Wykonujesz TYLKO swoje ZADANIE, pomijasz dodatkowe komentarze./"/"/"
@@ -41,14 +41,14 @@ Uwaga! Oceniana odpowiedź może zawierać rozszerzenie tematu lub dodatkowe inf
 Najważniejsze, żeby oceniana gdzieś w swojej treści zawierała informacje z prawidłowej odpowiedzi.
 
 #PYTANIE#
-{row['Pytanie']}
+{row['question']}
 
 #OCENIANA_ODPOWIEDZ#
-{row['Odpowiedź: speakleash/Bielik-7B-Instruct-v0.1']}
+{row[f'generated_answer_{model_rated}']}
 
 #PRAWIDLOWA_ODPOWIEDZ#
-{row['Odpowiedź']}"""},
-                    "max_tokens": 50
+{row['answer']}"""},
+                    "max_tokens": 5
                 }
             }
 
@@ -56,42 +56,7 @@ Najważniejsze, żeby oceniana gdzieś w swojej treści zawierała informacje z 
             json.dump(data, f, ensure_ascii=False)
             f.write('\n')
 
-    return filename
-    
-
-def main():
-
-    file = prepare_batch_file("responses.csv", "gpt-4o", output_dir="batch_requests")
-
-    # konfiguracja OpenAI API
-    load_dotenv()
-    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-    openai.api_key = OPENAI_API_KEY
-
-    # przesyłanie pliku wejściowego
-    client = OpenAI()
-
-    batch_input_file = client.files.create(
-        file=open(f"{file}", "rb"),
-        purpose="batch"
-    )
-
-    print(batch_input_file)
-
-    # tworzenie batcha
-    batch_input_file_id = batch_input_file.id
-    
-    batch = client.batches.create(
-        input_file_id=batch_input_file_id,
-        endpoint="/v1/chat/completions",
-        completion_window="24h"
-    )
-
-    batch_id = batch.id
-    batch_status = client.batches.retrieve(batch_id)
-    print(batch_status)
-
 
 
 if __name__ == "__main__":
-    main()
+    main(input_path="responses.csv", model_judge="gpt-4o", model_rated="Bielik-7B-Instruct-v0.1", output_dir="batch_requests")
