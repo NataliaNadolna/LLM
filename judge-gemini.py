@@ -27,7 +27,6 @@ def main(input_path, model_rated, output_path):
     # ocenianie odpowiedzi
     marks = []
     thinkings = []
-    responses = []
     for index, row in df.iterrows():
 
         if (index + 1) % 15 == 0:
@@ -136,7 +135,6 @@ Ma jednego brata.
             }
         )
         answer = response.text
-        responses.append(answer)
         print(answer)
 
         parsed_data = json.loads(answer)
