@@ -147,8 +147,8 @@ Ma jednego brata.
         thinkings.append(thinking)
         marks.append(mark)
 
-    df['Marks'] = marks
-    df['Thinkings'] = thinkings
+    df['mark'] = marks
+    df['thinking'] = thinkings
 
     print(df)
 
