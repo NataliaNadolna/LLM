@@ -1,0 +1,13 @@
+question,answer,link do testu w B2,rodzaj zagadki,Zaskakujące odpowiedzi Bielika,Prawidłowe,generated_answer_Bielik-7B-Instruct-v0.1
+Kto ma imieniny 30 lutego?,"Nikt, bo nie ma takiego dnia.",,,,T,"  Nikt nie ma imienin 30 lutego. Jest to dzień, który w kalendarzu polskim przypada pomiędzy dwoma pełnymi miesiącami - lutym i marcem. W związku z tym, że luty ma 28 dni, a marzec zazwyczaj rozpoczyna się 1 marca, nie ma możliwości, aby jakiekolwiek imieniny przypadały na ten dzień."
+Ile przekątnych ma trójkąt?,"Zero, trójkąt nie ma przekątnych",,sprzeczność z uwagi na definicję pojęcia,,T,  Trójkąt ma trzy przekątne.
+W którym roku wydarzyła się na terenie Polski historyczna Bitwa pod Bigosem?,Nie było takiej bitwy.,,,,T,"  Wydarzeniem historycznym, które można by kojarzyć z terminem ""bitwa pod Bigosem"", nie istnieje. Termin ten jest prawdopodobnie błędem lub żartem. Możliwe, że jest to nawiązanie do filmu lub gry komputerowej, a nie do autentycznej bitwy. W historii Polski nie ma żadnego znanego wydarzenia militarnego znanego jako ""bitwa pod Bigosem""."
+W którym miesiącu zaczyna się 5 kwartał roku? ,Rok ma tylko 4 kwartały.,,,,T,"  W Polsce, rok składa się z czterech kwartałów, a każdy kwartał trwa trzy miesiące. Poniżej przedstawiona jest lista miesięcy wraz z przynależnością do poszczególnych kwartałów:
+
+1. styczeń-marzec = 1. kwartał
+2. kwiecień-czerwiec = 2. kwartał
+3. lipiec-wrzesień = 3. kwartał
+4. październik-grudzień = 4. kwartał
+
+Oznacza to, że 5. kwartał nie istnieje w polskim kalendarzu. Jeśli natomiast chodzi o inne kraje, które stosują różne systemy podziału roku, może istnieć 5. kwartał, ale to zależy od przyjętego przez dany kraj lub organizację systemu."
+Ile skrzydeł ma pies? ,Zero. Psy nie mają skrzydeł. ,,,,T,"  Psy nie mają skrzydeł. Są one stworzeniami czterokończynowymi, z ciałem, ogonem i sierścią."
